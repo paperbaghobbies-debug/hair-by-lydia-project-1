@@ -183,3 +183,53 @@ On 27/10/2026, the Sprint 0 documents were first committed together and then spl
 
 - The transcript records the review and requested changes; it is not an institute-issued AI reference.
 - The appendix remains a draft until I verify the citation details and evidence access required by the institute's policy.
+
+## Entry 5: Competitor research guidance, feedback and copy-edit (Copilot)
+
+**Date:** 27/10/2026  
+**Tool:** Copilot Chat in VS Code (Copilot SDK)  
+**Reference:** GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 27 October 2026].  
+**Purpose:** To get guidance on the competitor research card, then have my write-up reviewed and copy-edited.
+
+### Interaction record
+
+| # | What I asked | What the AI returned | Evidence |
+|---|---|---|---|
+| 1 | I asked whether to make the checklist and research note a markdown file to link as evidence. | Advice to use one file, `docs/competitor-research.md`, with suggested sections: purpose and method, a checklist table, per-site notes with URL, date accessed and linked screenshots, adopt or avoid takeaways, open questions tagged [C], and an AI-use line. It said to tag assumptions [P] and open questions [C]. It also advised one commit per item. (Timestamp in the screenshot: 8:53 PM.) | [competitor-research-markdown-ai-4.png](screenshots/competitor-research-markdown-ai-4.png) |
+| 2 | I asked for help with the competitor research card (#3). | Tips for the task: pick three comparable sites, use one checklist for each (layout, gallery, prices, enquiry route, mobile and basic accessibility), score each Yes, Partial or No with a one-line note, save dated screenshots, record each takeaway as adopt or avoid, save the file as `docs/competitor-research.md`, and log AI use. It offered to help build the checklist table or review my findings, and said it would not write the analysis. | [competitor-research-markdown-ai-3.png](screenshots/competitor-research-markdown-ai-3.png) |
+| 3 | I asked it to review my competitor research and give feedback. | General feedback on structure and evidence, for example defining the source tags and matching each screenshot to the claim it supports. | [competitor-research-markdown-ai-1.png](screenshots/competitor-research-markdown-ai-1.png) |
+| 4 | I asked it to apply smaller edits where needed and check spelling and grammar. | Edits to `competitor-research.md` that corrected spelling and grammar, standardised British spelling, made headings consistent and tightened some wording. For example, "live navigation indicator" became "active-section indicator". | [competitor-research-markdown-ai-2.png](screenshots/competitor-research-markdown-ai-2.png); `docs/competitor-research.md` |
+
+### Project documents
+- [competitor-research.md](competitor-research.md): competitor research
+- [lydia-competitor-rough-notes.txt](lydia-competitor-rough-notes.txt): my raw notes from the first review with Lydia
+
+### My decisions
+
+**Accepted**
+- I used the checklist areas and the Yes, Partial or No scoring from the guidance, and the suggested single markdown file.
+- I accepted the spelling, grammar and consistency edits.
+
+**Changed**
+- I built the markdown document myself around the checklist, and entered Lydia's feedback and my own observations, scores and assumptions.
+- I used one table for each competitor with a score column and a one-line note, instead of the single table with a column for each site that was suggested.
+- After the feedback recommended defining the source labels, I added a source key adapted from the one in `requirements-mapping.md`.
+- I treated the feedback as advice. I did not add new research requirements, and I decided the research was sufficient for my needs.
+
+**Rejected**
+- None recorded.
+
+### Where this was used
+- `competitor-research.md`: the file name, suggested sections, checklist areas and scoring scale came from Copilot's guidance. Spelling, grammar, British spelling, heading consistency and some rewording were Copilot's edits. The observations, scores, takeaways and decisions are mine.
+
+### Version control note
+Commit `7a91d2d` ("Add competitor research documentation") has a `Co-authored-by: Copilot` trailer. Copilot added it by default when it suggested the commit command, and I did not ask for it. It does not mean Copilot wrote the research content.
+
+### Limits of this evidence
+- I have no screenshot or transcript showing Copilot supplying a ready-made markdown table. The screenshots show guidance on structure and checklist areas only, so I describe the table layout as my own.
+- The screenshots show the start of each response and the copy-edit summary, not the full conversations.
+- The transcript is not an institute-issued AI reference.
+- The research is my own analysis from Lydia's feedback and my visits to the websites. Lydia has not confirmed my assumptions.
+
+### My responsibility
+I chose and visited the competitors, entered Lydia's feedback, made the observations and scored the sites. Copilot gave guidance, reviewed the write-up and copy-edited it at my request, and I decided what to keep.
