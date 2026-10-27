@@ -2,8 +2,9 @@
 
 ## Entry 1: Defining AI working rules and handover document (hbl-ai-rules.md)
 
-**Date(s):** 26/10/2026
-**Tool:** Copilot Chat (the model is not recorded for every interaction; the screenshot for interaction 4 displays `Auto (gpt-6-luna)`)
+**Date(s):** 26/10/2026  
+**Tool:** Copilot Chat (the model is not recorded for every interaction; the screenshot for interaction 4 displays `Auto (gpt-6-luna)`)  
+**Reference:** GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 26 October 2026].  
 **Purpose:** To set working rules for how an AI assistant mentors and reviews my Hair by Lydia project without authoring my assessed work.
 
 ### Interaction record
@@ -57,8 +58,9 @@ I made the project decisions. The AI structured and drafted the AI-facing rules 
 
 ## Entry 2: Q1–Q26 requirements mapping (Copilot)
 
-**Date(s):** 27/10/2026
-**Tool:** Copilot Chat (the model is not displayed in the screenshots)
+**Date(s):** 27/10/2026  
+**Tool:** Copilot Chat (the model is not displayed in the screenshots)  
+**Reference:** GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 27 October 2026].  
 **Purpose:** To work through Lydia's completed client questionnaire, which I designed with Jesse James Garrett's planes of user experience in mind, and to use Copilot's framework to map her answers (Q1–Q26) to needs, features, source tags and gaps, without Copilot authoring the table for me.
 
 ### Interaction record
@@ -100,8 +102,9 @@ I made the project decisions, adapted the example answers and submitted them to 
 
 ## Entry 3: Example answers and revisions for the Q1–Q26 requirements mapping (Claude)
 
-**Date(s):** 27/10/2026
-**Tool:** Claude Sonnet 5.5 (Anthropic) via claude.ai
+**Date(s):** 27/10/2026  
+**Tool:** Claude Sonnet 5.5 (Anthropic) via claude.ai  
+**Reference:** Anthropic (2026) *Claude Sonnet 5.5* [Generative AI] Available from https://claude.ai [Accessed 27 October 2026].  
 **Purpose:** To provide example answers in the four-part mapping format for me to adapt, to revise specific rows to include my ideas, and to format the finished table as markdown.
 
 ### Interaction record
@@ -145,6 +148,7 @@ I made the project decisions and directed the changes to the mapping. Claude dra
 
 **Date:** 27/10/2026  
 **Tool:** Copilot Chat in VS Code (Copilot SDK)  
+**Reference:** GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 27 October 2026].  
 **Purpose:** To review whether my appendix accurately described my AI use and make the disclosure more complete and concise.
 
 ### Interaction record
