@@ -98,3 +98,46 @@ I made the project decisions. The AI structured and drafted the AI-facing rules 
 ### My responsibility
 I made the project decisions, adapted the example answers and submitted them to Copilot. Copilot provided the framework and checked my answers. The example answers and revisions I directed are recorded in Entry 3. Review this statement and revise it if it does not accurately reflect my contribution.
 
+## Entry 3: Example answers and revisions for the Q1–Q26 requirements mapping (Claude)
+
+**Date(s):** 27/10/2026
+**Tool:** Claude Sonnet 5.5 (Anthropic) via claude.ai
+**Purpose:** To provide example answers in the four-part mapping format for me to adapt, to revise specific rows to include my ideas, and to format the finished table as markdown.
+
+### Interaction record
+
+| # | What I asked | What the AI returned | Evidence |
+|---|---|---|---|
+| 1 | I used the same mentor approach as in Entry 2, then asked it to give its own answers to its questions as a template for how to answer, and gave it my summaries of Q6–Q26 batch by batch. | Full example answers for each batch in the four-part format (interpretation, derived need or feature, source tag, gap). | [questionaire-requirements-mapping-4.png](screenshots/questionaire-requirements-mapping-4.png) (Q1–Q5), [5](screenshots/questionaire-requirements-mapping-5.png), [6](screenshots/questionaire-requirements-mapping-6.png), [7](screenshots/questionaire-requirements-mapping-7.png) (Q6–Q10), [8](screenshots/questionaire-requirements-mapping-8.png) (Q11–Q13), [11](screenshots/questionaire-requirements-mapping-11.png) (Q16–Q17), [13](screenshots/questionaire-requirements-mapping-13.png) (Q21–Q22) |
+| 2 | I told it what to change in specific rows: a form-to-email enquiry flow, pulling gallery images from Lydia's Instagram, building on her existing systems so maintenance is minimal, and keeping running costs low or free where possible. I also asked whether photo attachments would need a backend. | Revised rows (Q11, Q13, Q17, Q21, Q24, Q26) that included my ideas, tagged them as proposals to confirm, and flagged feasibility questions for my research card. It confirmed that photo uploads would need a form service or backend. | [Q11](screenshots/questionaire-requirements-mapping-9.png), [Q13](screenshots/questionaire-requirements-mapping-10.png), [Q17](screenshots/questionaire-requirements-mapping-12.png), [Q21](screenshots/questionaire-requirements-mapping-14.png), [Q24](screenshots/questionaire-requirements-mapping-15.png) and [its email revision](screenshots/questionaire-requirements-mapping-16.png), [Q26](screenshots/questionaire-requirements-mapping-17.png) |
+| 3 | I pasted my completed Q1–Q26 table and asked it to present it as markdown to match my existing work. | A formatted `requirements-mapping.md` with a header and source key. It changed one spelling ("behavior" to "behaviour") and replaced curly quotes with plain ones. It did not change the content. |[questionaire-requirements-mapping-19.png](screenshots/questionaire-requirements-mapping-19.png) |
+
+### Project documents
+- [requirements-mapping.md](requirements-mapping.md): Q1–Q26 mapping (card 1 evidence, AI-assisted)
+
+### My decisions
+
+**Accepted**
+- I used the four-part format and the [Q]/[P]/[C] source tags in the example answers. (Evidence: requirements-mapping.md.)
+
+**Changed**
+- I adapted the example answers into my own answers for Copilot's questions (see Entry 2).
+- I directed a form-to-email enquiry flow, and treated photo upload as a feasibility question because attachments would need a form service or backend. (Evidence: requirements-mapping.md rows Q11 and Q17; questionaire-requirements-mapping-9.png, questionaire-requirements-mapping-12.png.)
+- I directed pulling gallery images from Lydia's Instagram, subject to research, with a manual-update fallback. (Evidence: requirements-mapping.md rows Q13 and Q21.)
+- I directed building on systems Lydia already uses so maintenance is minimal, and aiming for low or free running costs where possible. (Evidence: requirements-mapping.md rows Q24 and Q26.)
+
+**Rejected**
+- None recorded.
+
+### Where this was used
+- `requirements-mapping.md`: AI-assisted project document. Claude's example answers were used as a model for wording and level of detail, and Claude formatted the final table as markdown.
+- The form-to-email flow, Instagram-sourced gallery, existing-systems principle and low-cost aim are my ideas. The AI added them to the rows at my direction.
+
+### Limits of this evidence
+- Several final rows follow the structure and wording of the example answers closely, so they are adapted from AI drafts, not written independently.
+- The mapping is my analysis, produced with AI assistance. It is not Lydia's confirmation of it.
+
+### My responsibility
+
+I made the project decisions and directed the changes to the mapping. Claude drafted example answers that I adapted, revised rows at my direction and formatted the final table. Review this statement and revise it if it does not accurately reflect my contribution.
+
