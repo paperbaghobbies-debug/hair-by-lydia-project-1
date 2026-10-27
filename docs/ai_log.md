@@ -156,7 +156,7 @@ I made the project decisions and directed the changes to the mapping. Claude dra
 | # | What I asked | What the AI returned | Evidence |
 |---|---|---|---|
 | 1 | I asked how to make the appendix accurate, then asked for exact wording based on my current evidence and AI log. | It identified that the appendix did not clearly disclose Claude's example answers and formatting for the Q1–Q26 mapping, Copilot's question-by-question guidance, and AI assistance with the disclosure itself. It suggested replacement wording and evidence-list changes. | Current Copilot conversation transcript. |
-| 2 | I asked Copilot to make the proposed changes. | It updated the appendix to describe the AI contributions, distinguish actual use from intended safeguards, and state that reference details | `docs/appendix.md`; current Copilot conversation transcript. |
+| 2 | I asked Copilot to make the proposed changes. | It updated the appendix to describe the AI contributions, distinguish actual use from intended safeguards, and state that reference details and assessor access to the evidence still need to be checked before submission. | `docs/appendix.md`; current Copilot conversation transcript. |
 | 3 | I asked it to review the disclosure again, then asked what evidence I should collect and shared my screenshots of the Claude and Copilot sessions. | It first suggested that Copilot assembled the mapping wording from my independent answers. The screenshots showed that the wording started as Claude drafts, so it corrected that and advised grouping the screenshots by tool and step, adding dates, and fixing broken evidence links in this log. | [questionaire-requirements-mapping-18.png](screenshots/questionaire-requirements-mapping-18.png) |
 
 ### My decisions
