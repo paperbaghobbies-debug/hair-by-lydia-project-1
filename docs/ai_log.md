@@ -55,3 +55,46 @@
 I made the project decisions. The AI structured and drafted the AI-facing rules text at my request. Review this statement and revise it if it does not accurately reflect my contribution.
 
 
+## Entry 2: Q1–Q26 requirements mapping (Copilot)
+
+**Date(s):** 27/10/2026
+**Tool:** Copilot Chat (the model is not displayed in the screenshots)
+**Purpose:** To work through Lydia's completed client questionnaire, which I designed with Jesse James Garrett's planes of user experience in mind, and to use Copilot's framework to map her answers (Q1–Q26) to needs, features, source tags and gaps, without Copilot authoring the table for me.
+
+### Interaction record
+
+| # | What I asked | What the AI returned | Evidence |
+|---|---|---|---|
+| 1 | I asked it to act as an interactive project mentor and work through the Q1–Q26 mapping in small batches (starting with Q1 to Q5), without generating the full table or inventing my interpretations. For each batch it was to state what Lydia said, ask for my interpretation [P], derived need or feature, source tag and gap to ask Lydia, and wait for my response. | It read the questionnaire and my sprint plan, then asked for a mapping for each question in turn using that framework. It did not provide example answers. | [questionaire-requirements-mapping-1.png](screenshots/questionaire-requirements-mapping-1.png), [questionaire-requirements-mapping-2.png](screenshots/questionaire-requirements-mapping-2.png) |
+| 2 | I submitted an answer for each question (Q1–Q26) in the four-part format. The answers were adapted from example answers drafted with another AI tool (see Entry 3). For Q19 I first submitted the Q18 answer by mistake and then sent a correction. | It recorded each answer against its question and moved on to the next. | [questionaire-requirements-mapping-2.png](screenshots/questionaire-requirements-mapping-2.png) (Q1–Q13), [questionaire-requirements-mapping-3.png](screenshots/questionaire-requirements-mapping-3.png) (Q13–Q26) |
+| 3 | I completed the Q21–Q26 batch. | It confirmed Q21–Q26 from my mappings and listed boundaries to preserve (for example, permission to post online may not cover the website, and Instagram sourcing and the update process stay [P]/[C] pending research). It said the discussion was complete without assembling the full table. | [questionaire-requirements-mapping-1.png](screenshots/questionaire-requirements-mapping-1.png) |
+
+### Project documents
+- [questionaire-hbl.md](questionaire-hbl.md): questionnaire and Lydia's answers
+- [requirements-mapping.md](requirements-mapping.md): Q1–Q26 mapping (card 1 evidence, AI-assisted)
+
+### My decisions
+
+**Accepted**
+- I used the four-part answer format from my mentor prompt (interpretation [P], derived need or feature, source tag, gap to ask Lydia) for every row. (Evidence: questionaire-requirements-mapping-2.png, requirements-mapping.md.)
+- The final Q21–Q26 rows keep the boundaries Copilot listed: website permission is not assumed, Instagram sourcing and the update process are [P]/[C] pending research, and costs are researched rather than estimated. (Evidence: questionaire-requirements-mapping-1.png, requirements-mapping.md rows Q21–Q26.)
+
+**Changed**
+- I adapted the example answers from Entry 3, including the rows revised at my direction (Q11, Q13, Q17, Q21, Q24, Q26), before submitting them, and compiled the confirmed rows into the Q1–Q26 table. (Evidence: questionaire-requirements-mapping-2.png, questionaire-requirements-mapping-3.png, requirements-mapping.md.)
+- I noticed that I had submitted the Q18 answer for Q19 and corrected it. (Evidence: questionaire-requirements-mapping-3.png.)
+
+**Rejected**
+- None recorded.
+
+### Where this was used
+- `requirements-mapping.md`: AI-assisted project document. Copilot provided the framework, asked the questions and checked my answers. The answer wording was adapted from drafts recorded in Entry 3.
+
+### Limits of this evidence
+- The screenshots show each question and the start of each answer. The full answers are in `requirements-mapping.md`.
+- The submitted answers closely follow the example answers in Entry 3, so they are adapted from AI drafts, not written independently.
+- The mapping is my analysis, produced with AI assistance. It is not Lydia's confirmation of it.
+- Screenshots are stored in `docs/screenshots/` and linked above. Confirm that the assessor can access the folder before submission.
+
+### My responsibility
+I made the project decisions, adapted the example answers and submitted them to Copilot. Copilot provided the framework and checked my answers. The example answers and revisions I directed are recorded in Entry 3. Review this statement and revise it if it does not accurately reflect my contribution.
+
