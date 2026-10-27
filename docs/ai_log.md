@@ -141,3 +141,37 @@ I made the project decisions, adapted the example answers and submitted them to 
 
 I made the project decisions and directed the changes to the mapping. Claude drafted example answers that I adapted, revised rows at my direction and formatted the final table. Review this statement and revise it if it does not accurately reflect my contribution.
 
+## Entry 4: Review and revision of AI disclosure (Copilot)
+
+**Date:** 27/10/2026  
+**Tool:** Copilot Chat in VS Code (Copilot SDK)  
+**Purpose:** To review whether my appendix accurately described my AI use and make the disclosure more complete and concise.
+
+### Interaction record
+
+| # | What I asked | What the AI returned | Evidence |
+|---|---|---|---|
+| 1 | I asked how to make the appendix accurate, then asked for exact wording based on my current evidence and AI log. | It identified that the appendix did not clearly disclose Claude's example answers and formatting for the Q1–Q26 mapping, Copilot's question-by-question guidance, and AI assistance with the disclosure itself. It suggested replacement wording and evidence-list changes. | Current Copilot conversation transcript. |
+| 2 | I asked Copilot to make the proposed changes. | It updated the appendix to describe the AI contributions, distinguish actual use from intended safeguards, and state that reference details | `docs/appendix.md`; current Copilot conversation transcript. |
+| 3 | I asked it to review the disclosure again, then asked what evidence I should collect and shared my screenshots of the Claude and Copilot sessions. | It first suggested that Copilot assembled the mapping wording from my independent answers. The screenshots showed that the wording started as Claude drafts, so it corrected that and advised grouping the screenshots by tool and step, adding dates, and fixing broken evidence links in this log. | [questionaire-requirements-mapping-18.png](screenshots/questionaire-requirements-mapping-18.png) |
+
+### My decisions
+
+**Accepted**
+- I authorised the appendix changes, including disclosure that this review contributed wording to the appendix.
+
+**Changed**
+- I did not accept the earlier suggestion that the mapping wording was mine alone, because my screenshots show it started as Claude drafts. The appendix and Entries 2 and 3 say so.
+- I corrected screenshot links in Entries 2 and 3 after the review.
+
+**Rejected**
+- None recorded.
+
+### Where this was used
+
+- `docs/appendix.md`: revised AI disclosure draft.
+
+### Limits of this evidence
+
+- The transcript records the review and requested changes; it is not an institute-issued AI reference.
+- The appendix remains a draft until I verify the citation details and evidence access required by the institute's policy.
