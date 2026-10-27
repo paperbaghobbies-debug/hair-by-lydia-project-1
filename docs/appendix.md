@@ -12,13 +12,15 @@ Further writing-support assistance beyond the uses listed in section 2, and auto
 
 ## 2. Actual Use So Far
 
-AI has assisted with my AI-facing project rules, the Q1–Q26 requirements mapping, appendix formatting and this disclosure. I reviewed suggestions, made project decisions, and adapted material used in my project documents.
+AI has assisted with my AI-facing project rules, the Q1–Q26 requirements mapping, appendix formatting, my competitor research structure and copy-edit, and this disclosure. I reviewed suggestions, made project decisions, and adapted material used in my project documents.
 
 At my request, Copilot helped draft and structure my AI-facing project rules from ideas I supplied. I reviewed and revised that document, including identifying and removing a duplicate section.
 
 For the Q1–Q26 requirements mapping, Claude provided example interpretations, needs or features, source tags, and follow-up questions. I adapted those examples, directed revisions to some rows (my ideas for a form-to-email enquiry flow, an Instagram-sourced gallery, building on Lydia's existing systems, and low running costs), and asked Claude to format the final table as markdown (Anthropic, Claude, 2026). (See Appendix I and the [AI log](ai_log.md), Entry 3.) Copilot then guided me through a question-by-question mapping process, asked me for each answer, and responded to my answers; I corrected one answer (Q19) during that process. The mapping is AI-assisted; its wording was not produced independently of AI. It is my working analysis of Lydia's questionnaire, not Lydia's confirmation of my interpretations.
 
 AI also reformatted an appendix draft into Markdown. On 27 October 2026, Copilot reviewed the disclosure and suggested wording and evidence-list changes. I chose to use and adapt that assistance in this draft.
+
+For my competitor research, Copilot advised on the file structure, checklist areas and scoring scale, then reviewed my write-up and copy-edited it for spelling, grammar and phrasing (see the [AI log](ai_log.md), Entry 5). The observations, scores and decisions are my own.
 
 As of 27 October 2026, I have not used AI to generate website code, final customer-facing website content, or external research. This statement concerns use so far and will be updated if that changes.
 
