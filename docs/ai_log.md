@@ -175,6 +175,10 @@ I made the project decisions and directed the changes to the mapping. Claude dra
 
 - `docs/appendix.md`: revised AI disclosure draft.
 
+### Version control note
+
+On 27/10/2026, the Sprint 0 documents were first committed together and then split into one commit per item before the first push to GitHub. Copilot helped me run the git commands for the split. Commit dates reflect the split, not when each item was written.
+
 ### Limits of this evidence
 
 - The transcript records the review and requested changes; it is not an institute-issued AI reference.
