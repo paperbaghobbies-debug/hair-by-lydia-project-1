@@ -52,7 +52,7 @@
 - Screenshots are stored in `docs/screenshots/` and linked above. Confirm that the assessor can access the folder before submission.
 
 ### My responsibility
-I made the project decisions. The AI structured and drafted the AI-facing rules text at my request. Review this statement and revise it if it does not accurately reflect my contribution.
+I made the project decisions. The AI structured and drafted the AI-facing rules text at my request.
 
 
 ## Entry 2: Q1–Q26 requirements mapping (Copilot)
@@ -96,7 +96,7 @@ I made the project decisions. The AI structured and drafted the AI-facing rules 
 - Screenshots are stored in `docs/screenshots/` and linked above. Confirm that the assessor can access the folder before submission.
 
 ### My responsibility
-I made the project decisions, adapted the example answers and submitted them to Copilot. Copilot provided the framework and checked my answers. The example answers and revisions I directed are recorded in Entry 3. Review this statement and revise it if it does not accurately reflect my contribution.
+I made the project decisions, adapted the example answers and submitted them to Copilot. Copilot provided the framework and checked my answers. The example answers and revisions I directed are recorded in Entry 3.
 
 ## Entry 3: Example answers and revisions for the Q1–Q26 requirements mapping (Claude)
 
@@ -139,7 +139,7 @@ I made the project decisions, adapted the example answers and submitted them to 
 
 ### My responsibility
 
-I made the project decisions and directed the changes to the mapping. Claude drafted example answers that I adapted, revised rows at my direction and formatted the final table. Review this statement and revise it if it does not accurately reflect my contribution.
+I made the project decisions and directed the changes to the mapping. Claude drafted example answers that I adapted, revised rows at my direction and formatted the final table.
 
 ## Entry 4: Review and revision of AI disclosure (Copilot)
 
