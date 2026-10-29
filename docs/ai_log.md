@@ -1,9 +1,14 @@
 # AI log
 
+**About the dates and evidence in this log**
+- No screenshot shows an absolute date. They show clock times (for example 7:07 PM) or relative times (for example "12 hours ago" in the Claude screenshots). Dates in this log come from my own record and from the git commit history. Git first records these files on 27/10/2026, because the Sprint 0 documents were split into separate commits that day (see Entry 4).
+- Where a screenshot does not show the model, this log says so.
+- This log was written and edited with AI assistance in places. Copilot wrote the text of Entry 6 at my request (see Entry 6), and Copilot Chat helped correct this log against my screenshots on 29/10/2026.
+
 ## Entry 1: Defining AI working rules and handover document (hbl-ai-rules.md)
 
-**Date(s):** 26/10/2026  
-**Tool:** Copilot Chat (the model is not recorded for every interaction; the screenshot for interaction 4 displays `Auto (gpt-6-luna)`)  
+**Date(s):** 26/10/2026 (from my own record; the screenshots show times only, 7:07 PM to 7:42 PM, and git first records these files on 27/10/2026)  
+**Tool:** Copilot Chat in VS Code (the model is shown as `Auto (gpt-6-luna)` in `ai_rules7.png` and `handover-duplicate-example.png` only; it is not shown in the other screenshots)  
 **Reference:** GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 26 October 2026].  
 **Purpose:** To set working rules for how an AI assistant mentors and reviews my Hair by Lydia project without authoring my assessed work.
 
@@ -11,12 +16,12 @@
 
 | # | What I asked | What the AI returned | Evidence |
 |---|---|---|---|
-| 1 | I supplied 12 proposed working rules (single-item commits, two-item work limit, project board, testing and evidence, hints not full code, Definition of Done, tests before work, traceability, retrospectives, rejected options, client input logged, no catch-up commits). | A review citing criteria 4.2, 5.1, 5.2 and M(iv)/M(vii), flagging a risk of administrative overload. | [ai_rules1.png](screenshots/ai_rules1.png), [ai_rules2.png](screenshots/ai_rules2.png), [ai_rules3.png](screenshots/ai_rules3.png) |
-| 2 | I asked it to explain everything expected of it, whether it would remember the context, and how to enforce the rules. | An explanation of its role, hint levels and evidence handling. It said it could not guarantee memory across sessions. | [ai_rules4.png](screenshots/ai_rules4.png), [ai_rules5.png](screenshots/ai_rules5.png) |
-| 3 | I asked it to define each behaviour rule by number. | A numbered breakdown of how it would apply my 12 rules. | [ai_rules6.png](screenshots/ai_rules6.png), [ai_rules7.png](screenshots/ai_rules7.png) |
-| 4 | I proposed dated session handover documents and said they were for AI agents only, so it could generate them outright. | It recommended separating the stable rules from dated handovers and using lowercase filenames (criterion 3.8). I clarified that AI-facing documents could be generated with my authorisation. The screenshots record this discussion and naming guidance, not a completed session handover. | [ai_rules4.png](screenshots/ai_rules4.png), [ai_rules5.png](screenshots/ai_rules5.png), [ai_rules6.png](screenshots/ai_rules6.png), [ai_rules7.png](screenshots/ai_rules7.png) |
+| 1 | I supplied 12 proposed working rules (single-item commits, two-item work limit, project board, testing and evidence, hints not full code, Definition of Done, tests before work, traceability, retrospectives, rejected options, client input logged, no catch-up commits). | A review citing criteria 4.2, 5.1, 5.2 and M(iv)/M(vii), flagging a risk of administrative overload. | [ai_rules2.png](screenshots/ai_rules2.png) and [ai_rules3.png](screenshots/ai_rules3.png) show my 12 rules and the review. [ai_rules1.png](screenshots/ai_rules1.png) shows an AI-facing "Copilot instructions" prompt at the start of the session. That prompt is for the AI's use only. It is kept outside this repository and is not part of the submitted project. It states that earlier documents in `docs/` were partly AI-drafted. |
+| 2 | I asked it to explain everything expected of it, whether it would remember the context, and how to enforce the rules. | An explanation of its role, hint levels and evidence handling. It said it could not guarantee memory across sessions. | [ai_rules4.png](screenshots/ai_rules4.png) (my question), [ai_rules5.png](screenshots/ai_rules5.png) (the explanation) |
+| 3 | I asked it to define each behaviour rule by number. | A numbered breakdown of how it would apply my 12 rules. | [ai_rules5.png](screenshots/ai_rules5.png) (my request), [ai_rules6.png](screenshots/ai_rules6.png) (the breakdown) |
+| 4 | I proposed dated session handover documents and said they were for AI agents only, so it could generate them outright. | It recommended separating the stable rules from dated handovers and using lowercase filenames (criterion 3.8). I clarified that AI-facing documents could be generated with my authorisation. The screenshots record this discussion and naming guidance, not a completed session handover. | [ai_rules7.png](screenshots/ai_rules7.png) (naming guidance, my reply that AI-facing documents could be generated, and the model `Auto (gpt-6-luna)` at 7:27 PM) |
 | 5 | I asked why the AI-facing rules contained two session-end handover sections. | The AI acknowledged that it had introduced the duplicate sections and offered to merge them. I checked the content and removed the duplicate myself, taking care not to remove relevant information. | [handover-duplicate-example.png](./screenshots/handover-duplicate-example.png) |
-| 6 | I asked for the framework to cover all project stages, not only Sprint 0. | A lifecycle-wide planning and workflow section. | [ai_rules8.png](screenshots/ai_rules8.png), [ai_rules9.png](screenshots/ai_rules9.png), [ai_rules10.png](screenshots/ai_rules10.png) |
+| 6 | I asked for the framework to cover all project stages, not only Sprint 0. | A lifecycle-wide planning and workflow section, which Copilot proposed as replacement text for the draft. | [ai_rules8.png](screenshots/ai_rules8.png) (my request, and the end of the draft), [ai_rules9.png](screenshots/ai_rules9.png), [ai_rules10.png](screenshots/ai_rules10.png) (the replacement section) |
 | 7 | I asked for my appendix draft in Markdown. | My draft reformatted, noted as unverified. | [appendix_markdown_result.png](screenshots/appendix_markdown_result.png) |
 
 ### Project documents
@@ -33,7 +38,7 @@
 - I accepted the session-end handover section and the evidence-first rules: no claim that work happened without dated evidence, and "INSUFFICIENT CONTEXT" when information is missing. (Evidence: hbl-ai-rules.md.)
 
 **Changed**
-- I decided the AI-facing documents did not need designing by me and could be generated by the AI, because they are for AI agents only. This changed my earlier rule that the AI never creates or edits files. The final file limits the exception to AI-facing behaviour and session-handover documents, and only where I authorise it. (Evidence: ai_rules5.png; the "Role and authorship" section of hbl-ai-rules.md.)
+- I decided the AI-facing documents did not need designing by me and could be generated by the AI, because they are for AI agents only. This changed my earlier rule that the AI never creates or edits files. At the time, the rules file limited the exception to AI-facing behaviour and session-handover documents, and only where I authorised it. (Evidence: ai_rules5.png; the "Role and authorship" section of hbl-ai-rules.md.)
 - I changed the plan-first rule so the AI will not propose a final plan before I have drafted one, except where I explicitly request an exception for an AI-facing document. (Evidence: hbl-ai-rules.md, "Mentoring and review".)
 - I identified a duplicate handover section and had it removed. (Evidence: handover-duplicate-example.png.)
 - I kept all 12 of my original rules as written and expanded them to be stricter and to cover fallbacks. (Evidence: hbl-ai-rules.md.)
@@ -55,11 +60,10 @@
 ### My responsibility
 I made the project decisions. The AI structured and drafted the AI-facing rules text at my request.
 
-
 ## Entry 2: Q1–Q26 requirements mapping (Copilot)
 
 **Date(s):** 27/10/2026  
-**Tool:** Copilot Chat (the model is not displayed in the screenshots)  
+**Tool:** Copilot Chat in VS Code (the model and date are not shown in the screenshots)  
 **Reference:** GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 27 October 2026].  
 **Purpose:** To work through Lydia's completed client questionnaire, which I designed with Jesse James Garrett's planes of user experience in mind, and to use Copilot's framework to map her answers (Q1–Q26) to needs, features, source tags and gaps, without Copilot authoring the table for me.
 
@@ -103,7 +107,7 @@ I made the project decisions, adapted the example answers and submitted them to 
 ## Entry 3: Example answers and revisions for the Q1–Q26 requirements mapping (Claude)
 
 **Date(s):** 27/10/2026  
-**Tool:** Claude Sonnet 5.5 (Anthropic) via claude.ai  
+**Tool:** Claude Sonnet 5.5 (Anthropic) via the claude.ai web app (the model name is visible in `questionaire-requirements-mapping-13.png` only; the screenshots show relative times such as "12 hours ago", not dates)  
 **Reference:** Anthropic (2026) *Claude Sonnet 5.5* [Generative AI] Available from https://claude.ai [Accessed 27 October 2026].  
 **Purpose:** To provide example answers in the four-part mapping format for me to adapt, to revise specific rows to include my ideas, and to format the finished table as markdown.
 
@@ -111,7 +115,7 @@ I made the project decisions, adapted the example answers and submitted them to 
 
 | # | What I asked | What the AI returned | Evidence |
 |---|---|---|---|
-| 1 | I used the same mentor approach as in Entry 2, then asked it to give its own answers to its questions as a template for how to answer, and gave it my summaries of Q6–Q26 batch by batch. | Full example answers for each batch in the four-part format (interpretation, derived need or feature, source tag, gap). | [questionaire-requirements-mapping-4.png](screenshots/questionaire-requirements-mapping-4.png) (Q1–Q5), [5](screenshots/questionaire-requirements-mapping-5.png), [6](screenshots/questionaire-requirements-mapping-6.png), [7](screenshots/questionaire-requirements-mapping-7.png) (Q6–Q10), [8](screenshots/questionaire-requirements-mapping-8.png) (Q11–Q13), [11](screenshots/questionaire-requirements-mapping-11.png) (Q16–Q17), [13](screenshots/questionaire-requirements-mapping-13.png) (Q21–Q22) |
+| 1 | I used the same mentor approach as in Entry 2, then asked it to give its own answers to its questions as a template for how to answer, and gave it my summaries of Q6–Q26 batch by batch. | Full example answers in the four-part format (interpretation, derived need or feature, source tag, gap) for the batches shown in the screenshots. The screenshots do not capture the original drafts for Q14–Q15, Q18–Q20 or Q23–Q26 (my revisions to Q24 and Q26 are shown). | [questionaire-requirements-mapping-4.png](screenshots/questionaire-requirements-mapping-4.png) (Q1–Q5), [5](screenshots/questionaire-requirements-mapping-5.png), [6](screenshots/questionaire-requirements-mapping-6.png), [7](screenshots/questionaire-requirements-mapping-7.png) (Q6–Q10), [8](screenshots/questionaire-requirements-mapping-8.png) (Q11–Q13), [11](screenshots/questionaire-requirements-mapping-11.png) (Q16–Q17), [13](screenshots/questionaire-requirements-mapping-13.png) (Q21–Q22) |
 | 2 | I told it what to change in specific rows: a form-to-email enquiry flow, pulling gallery images from Lydia's Instagram, building on her existing systems so maintenance is minimal, and keeping running costs low or free where possible. I also asked whether photo attachments would need a backend. | Revised rows (Q11, Q13, Q17, Q21, Q24, Q26) that included my ideas, tagged them as proposals to confirm, and flagged feasibility questions for my research card. It confirmed that photo uploads would need a form service or backend. | [Q11](screenshots/questionaire-requirements-mapping-9.png), [Q13](screenshots/questionaire-requirements-mapping-10.png), [Q17](screenshots/questionaire-requirements-mapping-12.png), [Q21](screenshots/questionaire-requirements-mapping-14.png), [Q24](screenshots/questionaire-requirements-mapping-15.png) and [its email revision](screenshots/questionaire-requirements-mapping-16.png), [Q26](screenshots/questionaire-requirements-mapping-17.png) |
 | 3 | I pasted my completed Q1–Q26 table and asked it to present it as markdown to match my existing work. | A formatted `requirements-mapping.md` with a header and source key. It changed one spelling ("behavior" to "behaviour") and replaced curly quotes with plain ones. It did not change the content. |[questionaire-requirements-mapping-19.png](screenshots/questionaire-requirements-mapping-19.png) |
 
@@ -139,6 +143,7 @@ I made the project decisions, adapted the example answers and submitted them to 
 ### Limits of this evidence
 - Several final rows follow the structure and wording of the example answers closely, so they are adapted from AI drafts, not written independently.
 - The mapping is my analysis, produced with AI assistance. It is not Lydia's confirmation of it.
+- The Claude screenshots show "Added to memory hair-by-lydia.md", so Claude kept a project memory file during these sessions. The screenshots also show Claude creating `requirements-mapping.md` itself in the formatting step.
 
 ### My responsibility
 
@@ -147,7 +152,7 @@ I made the project decisions and directed the changes to the mapping. Claude dra
 ## Entry 4: Review and revision of AI disclosure (Copilot)
 
 **Date:** 27/10/2026  
-**Tool:** Copilot Chat in VS Code (Copilot SDK)  
+**Tool:** Copilot Chat in VS Code, auto-routed to Claude Sonnet 5.5 (shown in `questionaire-requirements-mapping-18.png` as "Auto routed task to Claude Sonnet 5.5", 4:23 PM)  
 **Reference:** GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 27 October 2026].  
 **Purpose:** To review whether my appendix accurately described my AI use and make the disclosure more complete and concise.
 
@@ -182,7 +187,9 @@ On 27/10/2026, the Sprint 0 documents were first committed together and then spl
 ### Limits of this evidence
 
 - The transcript records the review and requested changes; it is not an institute-issued AI reference.
-- The appendix remains a draft until I verify the citation details and evidence access required by the institute's policy.
+- Only `questionaire-requirements-mapping-18.png` captures this session. It shows my prompt "how would these screenshots help" and the response, not the earlier appendix-rewrite exchanges (rows 1 and 2). Those are recorded in this entry and in the git history of `docs/appendix.md`, and I have no screenshots of them.
+- The Copilot model route (Claude Sonnet 5.5) is known for this screenshot only. This is an example of Copilot auto-routing to different models, so other Copilot entries may also have used models that are not shown.
+- Assessor access to the `docs/screenshots/` folder still needs checking before submission.
 
 ## Entry 5: Competitor research guidance, feedback and copy-edit (Copilot)
 
@@ -228,8 +235,61 @@ Commit `7a91d2d` ("Add competitor research documentation") has a `Co-authored-by
 ### Limits of this evidence
 - I have no screenshot or transcript showing Copilot supplying a ready-made markdown table. The screenshots show guidance on structure and checklist areas only, so I describe the table layout as my own.
 - The screenshots show the start of each response and the copy-edit summary, not the full conversations.
+- `competitor-research-markdown-ai-3.png` (row 2) shows the response only. My prompt for it is not visible in that screenshot, so row 2 is my description of what I asked.
+- Times in these screenshots (8:53 PM, 9:54 PM, 9:57 PM) have no dates. The models are not shown.
 - The transcript is not an institute-issued AI reference.
 - The research is my own analysis from Lydia's feedback and my visits to the websites. Lydia has not confirmed my assumptions.
 
 ### My responsibility
 I chose and visited the competitors, entered Lydia's feedback, made the observations and scored the sites. Copilot gave guidance, reviewed the write-up and copy-edited it at my request, and I decided what to keep.
+
+## Entry 6: Feature research document from rough notes (Copilot)
+
+**Date:** 29/10/2026
+**Tool:** Copilot Chat in VS Code (Copilot SDK)
+**Reference:** GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 29 October 2026].
+**Purpose:** To turn my feature research rough notes into a final Markdown research and decision log, record a dated client agreement, and link the document as Sprint 0 evidence.
+
+### Interaction record
+
+| # | What I asked | What the AI returned | Evidence |
+|---|---|---|---|
+| 1 | I asked it to convert my rough feature-research notes into a final Markdown document saved in the repository, add [P] and [C] tags, write a dated note of what Lydia agreed on 28/10/2026, and add an AI log entry. | A structured feature research and decision log in `docs/feature-research.md`, with proposals and outstanding checks labelled. It recorded Lydia's agreement to drop the transparent header in favour of a taupe fixed header, as stated in my rough notes, and linked the document from the Sprint 0 evidence table. It did not independently verify the research sources or the client discussion. | This Copilot Chat transcript (29 October 2026); [original rough notes](../features-research-rough-notes.txt); [feature research document](feature-research.md); [Sprint 0 plan](../sprints/sprint-0.md); [completion screenshot](screenshots/feature-research-completion.png). |
+
+### Project documents
+- [feature-research.md](feature-research.md): feature research and decision log converted from my rough notes
+- [sprint-0.md](../sprints/sprint-0.md): evidence link for the research card
+- [features-research-rough-notes.txt](../features-research-rough-notes.txt): original notes retained as source evidence
+- [feature-research-completion.png](screenshots/feature-research-completion.png): screenshot of the request and completed changes
+
+### My decisions
+
+**Recorded from my notes**
+- I recorded the header decision as Lydia's agreement to drop the transparent effect and use a taupe fixed header from the top of the page, dated 28/10/2026.
+
+**Limits**
+- Copilot wrote the text of this log entry at my request (my prompt asked it to add an AI log entry; `feature-research-completion.png` shows it recorded the work in `ai_log.md`). I have reviewed it. The model and the date are not shown in that screenshot.
+- The screenshot shows my request and the completion summary only, not the full conversation.
+- The AI edited and organised the notes, but did not independently verify their external sources, test the proposed services, or witness Lydia's discussion. The dated client note is based on my rough notes.
+
+## Entry 7: Approach update and revised AI workflow
+
+**Date:** 29/10/2026  
+**Tool:** Copilot Chat in VS Code  
+**Purpose:** To reflect on how my AI use has developed, update my working rules to match my actual practice, and stop using session handovers.
+
+### Approach update
+
+Reviewing this log made me recognise that my use of AI has developed beyond my original plan for AI to act only as a mentor and reviewer. Later entries record AI assistance with drafting, structuring and reviewing project documents. I have updated my working rules to reflect my actual use: I may ask AI to help with project documents, while remaining responsible for reviewing and adapting the work, checking facts and sources, understanding the final material, and acknowledging AI contributions accurately.
+
+I no longer use session handovers. I often forgot to generate one at the end of a session, so handovers were not a reliable way to maintain project context. I will continue to apply my AI-use rules when using AI for project work and record its contributions, my decisions and the checks I make. I remain responsible for my project decisions and for ensuring my AI use follows the applicable course requirements.
+
+### Interaction record
+
+| # | What I asked | What the AI returned | Evidence |
+|---|---|---|---|
+| 1 | I asked for a critical review of my AI-use approach, then authorised updating the rules, moving this approach update out of Entry 1, and aligning the disclosure citations. | It identified the mismatch between my original rules and later documented AI use, recommended a dated update, and made the authorised changes. | Current Copilot Chat transcript (29 October 2026); this entry and the revised [AI rules](hbl-ai-rules.md) and [appendix](appendix.md). |
+
+### My responsibility
+
+I recognised the change in my practice and decided to stop using handovers because I often forgot to prepare them. I authorised the rule and disclosure updates, reviewed the changes, and remain responsible for applying the rules and accurately disclosing AI use.

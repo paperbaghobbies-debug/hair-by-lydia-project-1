@@ -1,0 +1,94 @@
+1. 
+**Hosting & running costs** - q26 q23 - Lydia needs a cheap and safe hosting option that doesnt require heavy maintainence.
+Method - I researched Github and cloudflare two of the most well know hosting services Github was my first choice but commerical bussiness's are limited to their uses by Github pages terms,  Cloudflare’s free plan appears to fit Lydia’s needs, but I will check its limits and compatibility with the other planned features before confirming this choice.
+Sources - (https://www.cloudflare.com/plans/#application-services) (https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits) (https://www.cloudflare.com/plans/free/)(https://flaviocopes.com/cloudflare-pages-vs-workers/)
+Decision - Cloudflare Pages on free plan would work for lydia needs as long as other features planned do not conflict will need confirmation at end of feature plan. 
+ 
+2.**Domain** - q23 - Lydia would like a custom domain at a cheap rate.
+Method - Keeping with the Decesion to host on Cloudflare we also noticed cloudflare offers real custom domains at no added cost or fees this would save outsourceing and keeps evidence easy to present to lydia 
+Sources - (https://www.cloudflare.com/learning/dns/how-much-does-a-domain-name-cost/).
+Decision - cloudflare offers custom domain at no added r 
+
+3. 
+**Form-to-email enquiry flow**- q11 q17 - Lydia Needs a form to email work flow that cost minimal and doesnt require maintainence or coding knowledge.  
+Method – I compared Cloudflare’s Email Service with FormSubmit. Cloudflare’s pricing says Email Routing is unlimited on Workers Free, and sending to a verified destination address is free; I still need to test the setup with the planned Pages Function. FormSubmit says it accepts unlimited submissions and keeps them in an archive for 30 days.
+Decision – FormSubmit looks like the simplest option for the enquiry form while the site is hosted on Cloudflare. Before using it on the live site, I will test delivery to Lydia, check its privacy information and terms, and confirm the archive and spam-protection details.
+ Initial Findings - Cloudflare functions seems to fit our needs for this and will work nicely without any costings at elarly stages and is scalable 
+ Research update – Cloudflare’s Email Service pricing says incoming Email Routing is unlimited on the Workers Free plan. It also says sending to a verified destination address is free on all plans. For the enquiry form, the website would send the completed enquiry to Lydia’s verified email address; Lydia would reply to the client herself using her usual email. This looks like it could meet the requirement without paying for outbound emails to arbitrary recipients. I still need to confirm the setup works with the planned Pages Function and test the email delivery.
+ Alternative form option – FormSubmit may work with the site hosted on Cloudflare. The form can submit directly to FormSubmit using its form action, and enquiries can be emailed to Lydia so she can reply from her usual email. FormSubmit states that it allows unlimited forms and submissions at no cost. It keeps submissions in its archive for 30 days, so I will check its privacy information and terms and test the full process before deciding whether to use it.
+ Decision – I will use FormSubmit to handle the enquiry form while keeping the website hosted on Cloudflare. FormSubmit allows the form to send enquiries to Lydia’s email, where she can read them and reply to clients using her usual email. Its documentation says it offers unlimited forms and submissions for free. Before using it on the live site, I will test the form and check FormSubmit’s privacy information and terms, as it keeps submissions in its archive for 30 days. I will keep its spam protection enabled.
+
+4. 
+**photo upload to form** - q17 - Lydia expressed an optional feature for clients to 3 upload images in their form submission.
+ Method – I checked the photo-upload option and considered whether it would add maintenance to the enquiry process. I will confirm with Lydia whether clients can send photos by WhatsApp or email after she first replies.
+ Decision - If Lydia is happy with this approach, I will leave photo uploads off the enquiry form and ask clients to send photos by WhatsApp or email after her first reply. This keeps the form simpler and avoids collecting photos with the initial enquiry.
+
+5. 
+**instrgram source gallery** - q13 q21 q24 - Lydia would like to use her existing instagram gallery as the site portfolio gallery but ensure that it is still readable and styled "nicely".
+ Method - I begand by researching Meta API copy right rules and API terms my findings was that as lydia uses a instagram bussiness account then using her images for her own marketing is permited i also did research and reading on stackoverflow to confirm this method is possible although no testing has been done at this stage and the API based on my research could work for this feature. although should this not work in testing a hand crafted portfolio from lydia original images will be the fall back.
+ Sources -  (https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-facebook-login) (https://www.meta.com/en-gb/help/policies/2202628709913826/?srsltid=AYCX9vJ_d5QVNHPeL60BUHJsUfk3x5iF0wPFa4ym-OyNMJcZbTpQFDCu) (https://stackoverflow.com/questions/12478772/how-do-i-use-instagrams-api-to-display-a-gallery-of-my-own-photos)
+ Decision - We will work on the APi and inplement while having a fallback if not working as an option, this support Lydias wants to have minium maintainence and to utilise and existing gallery seemlessly 
+
+6. 
+**update method** - Lydia would like a no code maintainence way to update her pricing and other features this was stated as optional as she only updates twice as year and can be done manually by dev.
+ Method - I began my research at cloudflare workers and functions due to our existing decisions this was promising and provides me options with KV workers, I also investigated perhaps running her price lists as an image but this would pose issues with broswer cache so was scrapped i will talk to lydia and review.
+ Sources** - (https://www.cloudflare.com/products/kv/) (https://community.cloudflare.com/t/edit-code-of-website-with-cloudflare/478014)
+ Research update – I spoke to Lydia about updating prices. She said maintaining a KV update system would be outside her skills. 
+Decision – I will not build a self-service price-update feature. If Lydia requests further price changes, I will update the prices in the HTML.
+
+7. 
+**review carousel with star ratings dedicated review page** - q13 comp research - Lydia would like a review carousel utilising a star system that can be users controled which showcase her hand picked reviews on every page and then using the same styled cards her review pages will use the same guards in grid layout.
+Method – I looked at how Blogs, articles and other sites, including matthewgranthairdressing, display reviews, and researched carousel examples, accessibility, and using CSS or SVG for star ratings with text alternatives and user-controlled navigation.
+Sources - (https://www.a11y-collective.com/blog/accessible-carousel/) - (https://github.com/antonADev/reviews-carousel) - (https://www.youtube.com/watch?v=nbNBe2bAw8c)
+Decision - Use a custom HTML/CSS/JS carousel featuring reviews selected by Lydia. Keep the reviews readable without JavaScript; JavaScript adds manual previous/next navigation. Reuse Lydia’s existing reviews as styled cards on the dedicated reviews page. Use accessible controls and provide text alternatives for star ratings. No Google Reviews integration or auto-rotation.
+
+8. 
+**transparent header that turns solid and fixed** – comp research – Lydia Like the Transparent behaviour and how the nav bare remained fixed while scrolling She would like something like this is possible with her branding.
+Method – I looked at matthewgranthairdressing header and compared it with examples and articles about fixed and sticky headers and how they change when scrolling.
+Sources – (https://uicookies.com/snippets/transparent-scroll-header/) (https://uicookies.com/snippets/scroll-linked-header-effects/) (https://vinish.dev/sticky-header-changes-on-scroll) (https://wpdean.com/css-header/) (https://www.j-a-b.net/how-to-design-a-sticky-header-that-does-not-hurt-mobile-ux-or-seo/) (https://sizzy.co/blog/css-position-sticky)(Common pattern: fixed/sticky header + scroll class toggle + CSS transitions for background, height and shadow.)
+Decision – i will use a fixed taupe header from the top of the page so Lydia’s logo blends into the navigation. dropping a transparent header as idea as lydias logo would not blend as intended like matthew grant this was discussed and she agreed.
+
+9.
+ **fonts** - q20 - Lydia wants to keep [Noto Serif display extra condensed] for “Hair by Lydia” on her main branding photo and [Luxurious Script] for other branding. Both are available from Google Fonts.
+ Method – I checked Lydia’s font preferences against the Google Fonts pages and reviewed the font licences.
+ Sources - (https://fonts.google.com/specimen/Noto+Serif+Display) (https://fonts.google.com/specimen/Luxurious+Script) (https://github.com/google/fonts/blob/main/ofl/notoserifdisplay/OFL.txt) (https://github.com/google/fonts/blob/main/ofl/luxuriousscript/OFL.txt)
+ Decision - Use Lydia’s chosen fonts for the brandin uses she specified. I will use my best judgement for body font and present lydia my options upon review.
+
+10.
+ **image resolution & loading** - comp research - Lydia would like to ensure that her images load and have resolution to reflect the best readablity possibly   
+ Method – I researched responsive images, image loading and lazy loading using web performance and developer guides, then considered how these could work with Lydia’s Instagram images.
+ Sources - (https://www.debugbear.com/blog/lazy-loading-performance) (https://pagespeed.one/en/know-how/lazyload) (https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images) (https://docs.imgix.com/en-US/getting-started/tutorials/responsive-design/responsive-images-with-srcset)
+ Decision - I will use Lydia’s Instagram API gallery as the intended portfolio source, with a hand-built gallery as fallback if API testing fails.I intned responsive images where possible use native lazy loading for other below-the-fold images. 
+
+11.
+**colour contrast of warm palette** - q20 - Lydia wants to keep her warm beige, cream and brown palette. The logo background was sampled as taupe #7F7367; cream/off-white #FAF3EB and dark brown #342B24 provide complementary page and text colours. A muted gold #C6A15B is a warm accent option for calls to action and button states.
+Contrast tests (foreground text / background):
+- White #FFFFFF on taupe #7F7367: 4.61:1 - passes WCAG AA for normal text.
+- Dark brown #342B24 on cream #FAF3EB: 12.58:1 - passes WCAG AAA for normal text.
+- Dark brown #342B24 on gold #C6A15B: 5.70:1 - passes WCAG AA for normal text.
+ Method – I sampled colours from Lydia’s logo and checked text and background combinations using the WebAIM contrast checker, alongside WCAG guidance.
+ Decision - Keep the navigation bar taupe to match Lydia’s logo, with white navigation text. Use cream/off-white for the main page background and dark brown for body text. Use muted gold as a warm CTA/button accent with dark-brown text. Retain the palette and check the final rendered combinations, including hover, active and keyboard-focus states, during implementation. Choose focus indicator colours for the surface they appear against.
+ sources - WCAG 2.2 SC 1.4.3 Contrast (Minimum) (https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) WCAG 2.2 SC 1.4.11 Non-text Contrast (https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html); WebAIM Contrast Checker (https://webaim.org/resources/contrastchecker/).
+ Evidence - docs/screenshots/contrast-nav-white-on-taupe.png; docs/screenshots/contrast-body-dark-brown-on-cream.png; docs/screenshots/contrast-cta-dark-brown-on-gold.png.
+
+12.
+**site responsiveness and rendering approach** -I looked at responsive design and testing, using my knowledge from my freeCodeCamp responsive web design certificate and Mozilla. I researched mobile-first design, flexible layouts using Flexbox where suitable, and testing the site at different screen sizes. I also looked into using HTML/JavaScript templates and compared SPA and multi-page approaches. I decided not to use JavaScript templates to generate the whole site, so the main content stays in the HTML and the site does not depend on JavaScript to render everything. I will use JavaScript where needed.
+ Method – I used what I learned from my freeCodeCamp certificate and researched responsive layouts, templates and SPA versus multi-page sites using Mozilla, Google Search Central and Chrome DevTools.
+ Sources** - (https://stackoverflow.com/questions/16255859/client-side-templates-in-script-tags-advantages-disadvantages) (https://hackernoon.com/pros-and-cons-of-popular-javascript-templating-engines) (https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/template) (https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics) (https://developers.google.com/solutions/content-driven/hosting/rendering) (https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design) (https://developer.chrome.com/docs/devtools/device-mode/)
+ Decision** - I will use a mobile-first design with flexible layouts, including Flexbox where it fits and CSS media queries to adapt the layout to different screen sizes, and test the site often at different screen sizes. I will not use JavaScript templates to generate the whole site. I will keep the main content in the HTML and use JavaScript for features that need it, such as interactive or dynamic content. My freeCodeCamp Responsive Web Design certificate is supporting evidence of my learning.
+ Caveat** - Device emulation is useful for frequent checks, but I will also test on a real phone if available. I will check search visibility and page structure separately under item 14.
+
+13.
+**How did you hear about me**- q2 - Lydia would like to know how visitors heard about her.
+Method – I considered Lydia’s needs and how an optional dropdown could collect useful information without adding backend tracking or extra maintenance.
+Decision – I will add an optional “How did you hear about Lydia?” dropdown to the enquiry form. 
+Include options for word of mouth, Google/search, Instagram, Facebook, other and prefer not to say. Send the selected answer to Lydia with the enquiry by email. This keeps the feature simple and avoids backend data tracking or extra maintenance. 
+Options are based on Lydia’s current needs and site requirments this doesnt require complex or further research.
+
+14.
+**Search visibility** - q1 - Lydia wants more people to discover her business online and make it easier for potential clients to find her and enquire. Lydia doesnt use Google Business. The website should describe her as a mobile hairdresser serving Banbury and surrounding areas, with travel. 
+I should use natural wording based on her real services, such as “mobile hairdresser in Banbury” and “mobile hair colourist”. The salon SEO keyword articles provide phrase ideas but do not confirm local search volume.
+I also considered how the SPA versus multi-page decision could affect search visibility. Google can render JavaScript, but that rendering happens after the initial crawl and not all crawlers run JavaScript. A multi-page site can give distinct content its own URL, title and description, while keeping important content in the delivered HTML. A single-page static site is not automatically an SPA, and neither architecture guarantees higher rankings.
+ Method – I researched Google’s SEO guidance and looked at hairdresser keyword articles to consider natural wording for Lydia’s services and area, while comparing how SPA and multi-page sites can present content to search engines.
+ Sources - (https://developers.google.com/search/docs/fundamentals/seo-starter-guide) (https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics) (https://developers.google.com/search/docs/appearance/title-link) (https://developers.google.com/search/docs/appearance/snippet) (https://support.google.com/business/answer/7091) (https://support.google.com/business/answer/3038177) (https://www.seopital.co/blog/the-best-hair-salon-seo-keywords) (https://marketkeep.com/seo-keywords-for-hair-salons/) (https://www.ronkot.com/best-seo-keywords-for-hair-salons/) (https://digitallytop.com/digital-marketing/seo-for-hair-salons/)
+ Decision - I will use a multi-page setup and keep important content in the HTML, with clear page titles, descriptions, headings and crawlable links. I will describe Lydia’s service area as Banbury and surrounding areas, and confirm travel availability through enquiries. I will use relevant service and location wording naturally, without promising specific rankings or a fixed travel radius. Google Business Profile is not part of the current plan.
