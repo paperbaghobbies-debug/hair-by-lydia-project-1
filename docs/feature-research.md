@@ -74,7 +74,7 @@
 
 **Proposal:** Build a custom HTML, CSS and JavaScript carousel with manual previous/next controls. Keep the reviews readable without JavaScript, provide text alternatives for star ratings, and reuse the reviews as cards on a dedicated Reviews page. Do not use auto-rotation or Google Reviews integration. **[P]**
 
-**To confirm:** Ask Lydia which reviews she wants to feature and confirm permission to publish them. **[C]**
+**To confirm:** Check the approved review sources for original ratings and service details before displaying them; do not invent missing information. Lydia selected the five featured reviews and confirmed permission to publish them in her completed questionnaire. **[C]**
 
 ## 8. Header behaviour
 
