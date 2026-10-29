@@ -1,0 +1,27 @@
+**User Stories Note**
+These are initial user-story ideas based on research and information available before Lydia's completed questionnaire, received on 29 October 2026. The notes below the stories record what her later feedback confirmed or changed.
+
+
+1. Hero & About - Q18/Q21 - New visitor - As a new visitor, I would like to see Lydia's hair transformations and learn who she is when I enter the site. - **Dev:** A homepage hero and small About section are possible approaches; the layout still needs a recommendation.
+2. Enquiry Call to Action - Q10/Q16/Q17 - New visitor - As a potential customer, I would like to find a clear way to start an enquiry. - **Dev [P]:** A call-to-action button in the navigation or footer is one possible solution, not a confirmed requirement.
+3. Reviews - Q13/Q22 - New visitor - As a potential customer, I would like to read genuine client reviews to build trust and help me decide whether the service is right for me. - **Dev:** Lydia agreed to selected reviews and a full reviews page, and confirmed permission to publish the supplied reviews. Which reviews to feature will be decided during design.
+4. Gallery - Q13/Q21 - New visitor - As a potential customer, I would like to browse Lydia's work, including before-and-after photos. - **Dev:** Lydia prefers recent Instagram posts if practical and accepts a separately maintained gallery as a fallback. She has permission to use client photos on the website and wants to approve photos before publication. Instagram integration and the gallery update workflow still need evaluation.
+5. Enquiry Form - Q13/Q18 - Visitor - As a client interested in Lydia's services, I would like to send the details of my question or consultation request so Lydia can respond before a booking is confirmed. - **Dev:** Lydia requested an address and requires a phone number. She wants an automatic acknowledgement, aims to reply within one working day, and wants clients to send photos later via WhatsApp. Clarify what kind of address is needed and test form delivery and the acknowledgement approach.
+6. Services and Prices - Q7/Q13 - Visitor - As a visitor, I would like to find services and their prices easily so I can decide what may suit me. - **Dev:** Lydia can provide current service and price details and prefers “from” prices without service durations. **[P]** Making the full list reachable in one click from every page is a proposed navigation criterion.
+7. Policies - Q12 - Visitor - As a visitor considering a service, I would like to understand the cancellation and deposit terms before I enquire. - **Dev:** The wording and conditions are not yet known and will be requested when this feature is built. Do not assume or publish terms before Lydia confirms them.
+8. Training and experience - Q5/Q13/Q22 - Visitor - As a visitor considering Lydia's services, I would like to learn about her experience and training. - **Dev:** An About section is a possible way to provide this information and should be available from the navigation.
+9. Contact - Q16 - Visitor - As a visitor, I would like to find Lydia's contact and social media options so I can reach out using a method that suits me. - **Dev:** Lydia wants all listed contact routes available, with no method prioritised. Contact details are withheld from project notes for privacy and can be added when the relevant page is built.
+
+
+
+
+**Notes from Lydia's questionnaire feedback - 29 October 2026**
+
+- **Direction and homepage:** Lydia likes the proposed direction and colour palette and wants enquiries to be the first focus. She is unsure about the exact homepage layout; wireframes can help explore this and gather further feedback.
+- **Gallery:** She prefers Instagram posts if practical and accepts a separate gallery as a fallback. She confirmed permission to use client photos on the website and wants to approve photos before they are added.
+- **Enquiries:** She requested an address, requires a phone number, wants an automatic acknowledgement and aims to reply within one working day. Clients should send photos later via WhatsApp. The type of address and the technical delivery and acknowledgement approach remain to be confirmed or tested. Relevant personal contact details remain redacted in public-facing project records.
+- **Reviews:** Lydia agreed to selected reviews and a full reviews page, and confirmed permission to publish the supplied reviews. The featured selection will be decided during design.
+- **Services and prices:** Lydia can provide current details and prefers “from” prices without service durations.
+- **Website updates:** Lydia would rather send updates to someone else to make. She expects to update photos about monthly and prices yearly or less. The practical workflow for these updates still needs to be evaluated; Instagram integration is not assumed to solve it.
+- **Policies:** Cancellation and deposit wording and conditions are not yet known and will be requested when this feature is built.
+- **Contact:** Lydia wants all listed contact routes available, without prioritising one method. Contact details are withheld from these project notes for privacy and can be added when the relevant page is built.
