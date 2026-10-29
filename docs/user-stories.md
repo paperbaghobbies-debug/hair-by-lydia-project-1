@@ -1,6 +1,15 @@
 # User stories
 
-**Traceability:** Q references point to the [requirements mapping](requirements-mapping.md), which maps the client questionnaire ([questionaire-hbl.md](questionaire-hbl.md)) to proposed needs and open questions. Check the source and status there before treating a proposal as confirmed.
+**Traceability:** Q references point to the [requirements mapping](requirements-mapping.md). The [completed questionnaire](questionaire-hbl.md) and [Lydia's feedback record](lydia-feedback.md) are the client records; the mapping is the student's analysis, not a separate client approval. Where the mapping and a direct client record appear to differ, use the direct client record and update the mapping/story. Keep unverified points open rather than treating proposals as confirmed.
+
+## Coverage of key needs
+
+| Need | Story or backlog | Status / trace |
+|---|---|---|
+| Consultation before booking | US05 | The enquiry is not a booking; Lydia consults before manually confirming the service and appointment. Confirm whether the form starts the online consultation or Lydia follows up separately (Q8, Q10). |
+| Travel charges | US06 | The service-area and price information says extra travel charges may apply and will be discussed before confirmation (Q14–Q15; see the [requirements mapping](requirements-mapping.md)). |
+| “Not sure what to book?” enquiries | US05 | Add a homepage prompt that routes unsure visitors to the enquiry form so they can ask for advice (Q13, Q18). |
+| Ongoing content and domain costs | Sprint 1 carry-forward backlog | Verify domain registration/renewal, hosting, form/service and maintenance costs, plus the content-update process, before the build/launch decision (Q23–Q26; [Sprint 0 carry-forward backlog](../sprints/sprint-0.md#11-carry-forward-backlog-and-later-specification); [feature research](feature-research.md)). |
 
 ## Shared acceptance checks
 
@@ -131,31 +140,34 @@ Not yet recorded.
 
 # User Story US05: Enquiry form
 
-**Requirement refs:** Q13, Q18
-**Page:** Contact
+**Requirement refs:** Q8, Q10, Q13, Q17, Q18
+**Page:** Home / Contact
 **Priority:** Must
 **Depends on:** None
 
 ## Story
-As a client interested in this service, I want to enquire about particular questions and possible consultation and booking for services, so that I can secure a convenient home appointment and discuss my specific hair goals directly with Lydia.
+As a client interested in this service, I want to enquire about a service or ask for advice if I am unsure what to book, so Lydia can understand my hair goals and consult with me before manually confirming the right service and appointment.
 
 ## Acceptance criteria
-1. Given a user opens the enquiry form, when it renders, then fields for name, required phone number, home address, and message/questions are present and marked as required, and an email field is available but optional.
-2. Given a user submits a valid enquiry, when the form successfully processes it, then the user sees a confirmation that Lydia aims to reply within one working day. If the user provided an email address, an automatic acknowledgement is sent to that address.
-3. Given a user leaves a required field blank or enters invalid data, when they submit the form, then validation identifies the problem and prevents invalid data from being processed.
-4. Given the form cannot send an enquiry, when an error occurs, then the user is told the enquiry was not sent and is offered an alternative contact method.
+1. Given a visitor is unsure which service to book, when they view the homepage, then a “Not sure what to book?” prompt leads them to the enquiry form and invites them to describe their hair goals and current hair.
+2. Given a user opens the enquiry form, when it renders, then fields for name, required phone number, and a description/questions are present, and an email field is available but optional. Any location field asks only for the level of detail Lydia confirms is needed and is required only if she confirms it is necessary.
+3. Given Lydia receives an enquiry, when she considers a booking, then the site makes clear that the enquiry does not confirm a booking and that she consults with the client before manually confirming the service and appointment. Whether the form itself starts the online consultation or Lydia follows up separately remains to be confirmed.
+4. Given a user submits a valid enquiry, when the form successfully processes it, then the user sees a confirmation that Lydia aims to reply within one working day. If the user provided an email address, an automatic acknowledgement is sent to that address.
+5. Given a user submits personal information, when they review the form before submission, then a concise privacy notice explains what information is collected, why, who receives or processes it, and the verified handling and retention/deletion approach.
+6. Given a user leaves a required field blank or enters invalid data, when they submit the form, then validation identifies the problem and prevents invalid data from being processed.
+7. Given the form cannot send an enquiry, when an error occurs, then the user is told the enquiry was not sent and is offered an alternative contact method.
 
 ## Dev notes
 - Approach: A form with required fields that sends an email to Lydia.
-- Lydia's feedback: Add the client's address. Phone number is required. Wants an automatic acknowledgement sent to the client. Photos are sent later by WhatsApp, not attached. Site can say she replies within one working day.
-- Open questions / needs from Lydia: The required phone field and email field are confirmed. Lydia's receiving email address will be provided when needed and is not included in this document.
+- Lydia's feedback: “Their address”; phone number is required. Wants an automatic acknowledgement sent to the client. Photos are sent later by WhatsApp, not attached. Site can say she replies within one working day.
+- Open questions / needs from Lydia: Clarify whether “their address” means a full home address or a less detailed location, whether it is required, and the purpose for collecting it. Agree the privacy notice and handling with Lydia, including the form provider, access/protection, retention and deletion. Confirm whether the form is the online consultation's starting point or a separate follow-up is needed. The required phone field and optional email field are recorded in the story; Lydia's receiving email address will be provided when needed and is not included here.
 - Fallback: If the form cannot submit, show a clear error and a WhatsApp contact link. Do not show a success message or imply that an acknowledgement was sent.
 
 ## Status
-[To Do]
+[Blocked: client clarification needed on location scope and personal-data handling]
 
 ## Evidence
-Not yet recorded.
+[Client feedback record](lydia-feedback.md); see the Sprint 0 [carry-forward backlog](../sprints/sprint-0.md#11-carry-forward-backlog-and-later-specification) for outstanding verification.
 ---
 
 # User Story US06: Services and prices in one click
@@ -170,7 +182,7 @@ As a visitor, I want finding services and prices to be as simple as one click, s
 
 ## Acceptance criteria
 1. Given a visitor is on any page, when they activate the "Services & Prices" navigation link, then they reach the dedicated pricing page.
-2. Given a visitor views the services and price list, when it loads, then each listed service has its description and "from" price, no service duration is shown, and coverage is stated as Banbury and surrounding villages.
+2. Given a visitor views the services and price list, when it loads, then each listed service has its description and "from" price, no service duration is shown, coverage is stated as Banbury and surrounding villages, and it explains that extra travel charges may apply depending on location and will be discussed before confirmation.
 3. Given a visitor browses pricing on a mobile device, when they use the site at the shared test widths, then all rates and service categories remain readable without horizontal scrolling or overlap.
 
 ## Dev notes
@@ -194,25 +206,29 @@ Not yet recorded.
 **Depends on:** None
 
 ## Story
-As a visitor, I want to understand Lydia's cancellation policy and deposit scheme before enquiring, so that I know her booking terms and financial requirements upfront with complete clarity before reaching out.
+As a visitor, I want to understand Lydia's cancellation terms and when deposits may be requested, so that I know the confirmed booking conditions before enquiring.
 
 ## Acceptance criteria
-1. Given a visitor navigates to the FAQ page, when they view the policy section, then it states only information confirmed for publication.
-2. Given the cancellation or deposit terms are not confirmed for publication, when a visitor views the FAQ page, then those terms are not presented as settled policy.
-3. Given a visitor reads the policy on a mobile device, when they use the site at the shared test widths, then the content remains readable without horizontal scrolling or overlap.
+1. Given a visitor navigates to the FAQ page, when they view the cancellation section, then it states that cancellations with at least 2 days' notice have no fee, cancellations with 1 day's notice incur 50% of the booked service cost, and same-day cancellations or no-shows incur 100%.
+2. Given a visitor reads the policy, when they view the outstanding-fees condition, then it says outstanding cancellation fees must be paid in full before future appointments can be booked or confirmed.
+3. Given a visitor reads the deposit information, when they view the FAQ, then it says deposits may be required upon request and does not invent an amount, payment method, refund rule or trigger.
+4. Given a visitor looks for late-arrival terms, when no terms have been confirmed by Lydia, then the FAQ does not invent or imply a late-arrival policy.
+5. Given a visitor reads the policy on a mobile device, when they use the site at the shared test widths, then the content remains readable without horizontal scrolling or overlap.
 
 ## Dev notes
 - Approach: Make the FAQ available from the site-wide navigation and footer.
-- Lydia's feedback: Deposit "may be required upon booking". No further deposit details given.
-- Open questions / needs from Lydia: Resolve a source discrepancy before publishing: the Q12 questionnaire mapping records cancellation terms, while this story's earlier feedback says the cancellation policy was not covered. Confirm the approved terms with Lydia, including deposit details.
-- Fallback: Do not invent or publish unconfirmed policy terms.
+- Authoritative client record: Lydia's completed Q12 response in the [questionnaire](questionaire-hbl.md), also transcribed in the [feedback record](lydia-feedback.md), says the policy should be clearly displayed. The [requirements mapping](requirements-mapping.md) is a derived summary and does not contradict the client response; the earlier discrepancy note in this story was incorrect and is removed.
+- Confirmed cancellation terms: no fee with at least 2 days' notice; 50% of the booked service cost with 1 day's notice; 100% for same-day cancellation or no-show; outstanding fees must be paid before future bookings are booked or confirmed. Communicate the terms in a friendly, clear way.
+- Lydia's feedback on deposits: They may be required upon request; no amount, payment method, refund rule or trigger was provided.
+- Open questions / needs from Lydia: Confirm whether the site should cover late arrivals, as Q12 asked about them but the response gives no late-arrival terms. Confirm any additional deposit details before adding them.
+- Fallback: Publish only the cancellation terms above and the confirmed general deposit statement; do not invent missing terms.
 
 
 ## Status
 [To Do]
 
 ## Evidence
-Not yet recorded.
+[Q12 in the completed questionnaire](questionaire-hbl.md); [Lydia's feedback record](lydia-feedback.md); [derived requirements mapping](requirements-mapping.md).
 ---
 
 # User Story US08: Lydia's training

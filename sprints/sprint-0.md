@@ -22,10 +22,10 @@ Evidence for each part:
 
 | Part of goal | Evidence |
 |---|---|
-| Client-reviewed brief | Lydia's recorded feedback on the brief, plus a sign-off message if given. None yet. Link when the file exists |
-| Researched feature decisions | Research and decision log, and competitor comparison. None yet. Link when the file exists |
-| Reviewed user stories | User stories v2 are not yet present; v3 once finalised, plus Lydia's feedback. None yet. Link when the file exists |
-| Rough wireframes | Wireframe files for key pages and widths. None yet. Link when the file exists |
+| Client-reviewed brief | [Lydia's feedback record](../docs/lydia-feedback.md) and [completed questionnaire](../docs/questionaire-hbl.md) exist, but record questionnaire answers rather than a review of the assembled brief. Brief review/sign-off is not evidenced yet. |
+| Researched feature decisions | [Feature research and decision log](../docs/feature-research.md) and [competitor comparison](../docs/competitor-research.md) exist. Some research checks and decisions remain open; see cards 2–3 below. |
+| Reviewed user stories | [User stories](../docs/user-stories.md) exist as a draft and link to the [requirements mapping](../docs/requirements-mapping.md) and feedback. Final review and resolution of open questions are not evidenced yet. |
+| Rough wireframes | None yet. Link the wireframe files for key pages and widths when they exist. |
 
 ## 2. Scope
 
@@ -57,9 +57,9 @@ One card, one clear output.
 | 0 | AI rules and workflow set up | Governance (pre-existing) | AI rules document | Rules written and saved in the repository; AI use recorded in the AI log | Board shows Done; rules file and AI log open and match | [`docs/hbl-ai-rules.md`](../docs/hbl-ai-rules.md), [`docs/ai_log.md`](../docs/ai_log.md) | Done (per board) |
 | 1 | Summarise client needs from questionnaire | 1 | Requirements summary (one page) | Every Q1-Q26 answer mapped to a need, feature or constraint; gaps listed | Check each question number appears | [`docs/requirements-mapping.md`](../docs/requirements-mapping.md), [`docs/ai_log.md`](../docs/ai_log.md) (Entries 2 and 3) | Done (per board, issue #2) |
 | 2 | Competitor research | 2 | Competitor comparison (three sites) | Three hairdresser websites reviewed against the same checklist (layout, gallery, prices, enquiry route, mobile, basic accessibility); includes any sites Lydia named in Q6 if she supplies them; features to adopt or avoid listed | Each site scored on the same checklist; takeaways link to stories or decisions | [`docs/competitor-research.md`](../docs/competitor-research.md), [`docs/lydia-competitor-rough-notes.txt`](../docs/lydia-competitor-rough-notes.txt), [`docs/ai_log.md`](../docs/ai_log.md) (Entry 5) | Done (per board, issue #3) |
-| 3 | Research features and options | 2 | Research and decision log | Options compared for form delivery, photo upload, review layout, Instagram content, update method and hosting/costs; each has a recommendation and cited source; time-boxed | Each decision has options, a source and a recommendation | [`docs/feature-research.md`](../docs/feature-research.md), [`features-research-rough-notes.txt`](../features-research-rough-notes.txt) (original notes), [`docs/ai_log.md`](../docs/ai_log.md) (Entry 6) | Not started |
-| 4 | Get Lydia's feedback | 3 | Feedback record | Follow-up questions sent covering all open questions from cards 1–3; responses (or chasers) recorded with dates | Every open item shows an answer or a stated assumption | None yet. Link when the file exists | Not started |
-| 5 | Finalise user stories | 4 | User stories v3 | Stories updated for Lydia's answers; priorities confirmed; criteria testable and tagged | Each story traces to a questionnaire answer or feedback | None yet. Link when the file exists | Not started |
+| 3 | Research features and options | 2 | Research and decision log | Options compared for form delivery, photo upload, review layout, Instagram content, update method and hosting/costs; each has a recommendation and cited source; time-boxed | Each decision has options, a source and a recommendation | [`docs/feature-research.md`](../docs/feature-research.md), [`features-research-rough-notes.txt`](../features-research-rough-notes.txt) (original notes), [`docs/ai_log.md`](../docs/ai_log.md) (Entry 6) | In progress — the log exists; provider feasibility, current terms and total ongoing costs still need verification. |
+| 4 | Get Lydia's feedback | 3 | Feedback record | Follow-up questions sent covering all open questions from cards 1–3; responses (or chasers) recorded with dates | Every open item shows an answer or a stated assumption | [`docs/lydia-feedback.md`](../docs/lydia-feedback.md), [`docs/questionaire-hbl.md`](../docs/questionaire-hbl.md), [`docs/requirements-mapping.md`](../docs/requirements-mapping.md) | In progress — client feedback was received and recorded, but it does not resolve every follow-up; address detail/privacy and deposit/late-arrival questions remain open. |
+| 5 | Finalise user stories | 4 | User stories v3 | Stories updated for Lydia's answers; priorities confirmed; criteria testable and tagged | Each story traces to a questionnaire answer or feedback | [`docs/user-stories.md`](../docs/user-stories.md), [`docs/requirements-mapping.md`](../docs/requirements-mapping.md), [`docs/lydia-feedback.md`](../docs/lydia-feedback.md) | In progress — stories exist as a draft; the Q12 source discrepancy is resolved, while the address/privacy decision and other open questions still need follow-up. |
 | 6 | Wireframe key pages | 5 | Rough wireframes (mobile and desktop) | Home, gallery, services and prices, enquiry form and FAQ covered; each maps to named stories | Wireframe checked against story list | None yet. Link when the file exists | Not started |
 | 7 | Compile the complete brief | 6 | Brief document | Scope, audience, content list, design direction, features, decisions and constraints in one place; Lydia has reviewed it | Lydia's review (and sign-off if given) recorded | None yet. Link when the file exists | Not started |
 
@@ -159,3 +159,16 @@ The 4 Nov end date leaves about 7 weeks (51 days) before 25 Dec for Sprints 1-2;
 **What went well**
 
 **What to change**
+
+## 11. Carry-forward backlog and later specification
+
+These items are planned or awaiting client clarification; they are not Sprint 0 completion evidence. Do not treat implementation as complete until applicable criteria below have been checked and linked to actual evidence.
+
+| Item | Traceability | Next check / evidence required | Status |
+|---|---|---|---|
+| Clarify enquiry location and privacy requirements | US05; Q17; [Lydia's feedback](../docs/lydia-feedback.md) | Ask whether Lydia needs a full address or a less detailed location, whether it must be required, and why. Agree the minimum data needed and verify the form's privacy information and handling: purpose, recipients/processors, access/protection, retention/deletion and contact route. Update the story before form design. | Needs client verification |
+| Confirm the consultation flow | US05; Q8 and Q10 in the [requirements mapping](../docs/requirements-mapping.md) | Confirm whether the form is the online consultation's starting point or whether Lydia follows up separately. Preserve the client-confirmed rule that she consults before manually confirming a service and appointment. | Open |
+| Verify ongoing costs and content maintenance | Q23, Q24 and Q26; sections 1, 2 and 6 of [feature research](../docs/feature-research.md) | Before the build/launch decision, verify registration and renewal costs, hosting and form/service charges, and maintenance/update costs. Record Lydia's stated expectation to own and pay for the domain; confirm its exact format, availability and renewal arrangement, and agree how photos, prices and other content will be updated. Record verified one-off and recurring amounts and link evidence. | Planned |
+| Implement and evidence specification AC 2.1–2.9 | Project specification | Plan and build at least three pages; implement and test validation; provide a README. Link the implementation and criterion-by-criterion evidence. | Planned — later phase |
+| Test, document and check deployment for AC 3.1–3.9 | Project specification | Capture implementation screenshots; write manual test procedures and record results; complete and evidence deployment checks. Link the actual screenshots, procedures, results and deployment evidence. | Planned — later phase |
+| Document the lifecycle for AC 5.1–5.5 and Merit M(v)–M(vii) | Project specification | Add the required lifecycle documentation and map each criterion to its evidence. Check the specification directly before claiming coverage. | Planned — later phase |

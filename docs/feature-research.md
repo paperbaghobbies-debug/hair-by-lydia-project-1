@@ -18,17 +18,17 @@
 
 **Proposal:** Use Cloudflare Pages on the free plan if it supports the final features and meets the site's needs. **[P]**
 
-**To confirm:** Check current limits, commercial-use terms, compatibility with the planned features and any costs before confirming the host. **[C]**
+**To confirm:** Check current limits, commercial-use terms, compatibility with the planned features and any costs before confirming the host. Record verified recurring costs for hosting, the enquiry-form provider and maintenance/content updates alongside domain renewal costs; no total ongoing-cost estimate is confirmed yet. **[C]**
 
 ## 2. Custom domain
 
-**Requirement:** Lydia would like a custom domain at a low cost (Q23).
+**Requirement:** Lydia wants a custom domain at a low cost (Q23). Her later feedback gives “Hairbylydia-Banbury” as her preferred address and says she expects to own and pay for the domain. **[Q]**
 
 **Research:** Cloudflare's domain-pricing information was reviewed: [How much does a domain name cost?](https://www.cloudflare.com/learning/dns/how-much-does-a-domain-name-cost/). Screenshot evidence: [Cloudflare pricing research](screenshots/cloudflare-price-research.png).
 
 **Proposal:** Connect the site to a custom domain through Cloudflare if the final hosting choice supports it. A domain name may still have a registration cost; compare the total price before purchase. **[P]**
 
-**To confirm:** Confirm the preferred domain name, registration cost and renewal cost with Lydia. **[C]**
+**To confirm:** Check availability and the exact domain format/suffix, then verify registration and renewal costs and who will manage renewal before purchase. The preferred wording and ownership expectation are recorded in [Lydia's feedback](lydia-feedback.md); cost and availability are not yet confirmed. **[C]**
 
 ## 3. Enquiry form delivery
 
@@ -60,11 +60,11 @@
 
 ## 6. Updating prices and other content
 
-**Requirement:** Lydia would prefer a no-code way to make occasional updates. Updates are infrequent, so developer assistance was also considered.
+**Requirement:** Lydia originally said she would update prices and photos herself, but later feedback says she would rather send updates to someone else to make. She expects photo updates about monthly and price updates about once a year or less. See [Lydia's feedback](lydia-feedback.md). **[Q]**
 
-**Research:** I considered [Cloudflare Workers KV](https://www.cloudflare.com/products/kv/) and the [Cloudflare community discussion about editing a website](https://community.cloudflare.com/t/edit-code-of-website-with-cloudflare/478014). Lydia said that maintaining a KV update system would be outside her skills. **[Q]** Screenshot evidence: [Cloudflare Workers limits research](screenshots/cloudflare-worker-limits-research-1.png).
+**Research:** I considered [Cloudflare Workers KV](https://www.cloudflare.com/products/kv/) and the [Cloudflare community discussion about editing a website](https://community.cloudflare.com/t/edit-code-of-website-with-cloudflare/478014). A self-service KV update system was considered outside Lydia's skills; her later preference is for someone else to make updates. Screenshot evidence: [Cloudflare Workers limits research](screenshots/cloudflare-worker-limits-research-1.png).
 
-**Proposal:** Do not build a self-service price-update feature for now. If Lydia requests a price change, update the prices in the site's HTML. **[P]**
+**Proposal:** Do not build a self-service update feature for now. Define a simple external update process for photos and prices, and check its cost and turnaround before choosing the ongoing maintenance arrangement. **[P]**
 
 ## 7. Reviews and review carousel
 
