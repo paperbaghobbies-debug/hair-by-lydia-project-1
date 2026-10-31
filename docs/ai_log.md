@@ -293,3 +293,34 @@ I no longer use session handovers. I often forgot to generate one at the end of 
 ### My responsibility
 
 I recognised the change in my practice and decided to stop using handovers because I often forgot to prepare them. I authorised the rule and disclosure updates, reviewed the changes, and remain responsible for applying the rules and accurately disclosing AI use.
+
+## Entry 8: Design principles and accessibility notes formatted as Markdown (Copilot)
+
+**Date:** 31/10/2026
+**Tool:** Copilot Chat in VS Code (Copilot SDK)
+**Reference:** GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 31 October 2026].
+**Purpose:** To format my design-principle rough notes as Markdown without changing their wording, retain the original draft as evidence, and record the AI assistance.
+
+### Interaction record
+
+| # | What I asked | What the AI returned | Evidence |
+|---|---|---|---|
+| 1 | I asked it to reformat my design-principle rough notes as Markdown without changing any wording, keep the original draft for evidence, record the work in the AI log, and not commit anything. | A Markdown-formatted copy of the notes, with the original rough-notes file left unchanged. | [Screenshot of my request and completion summary](screenshots/design-principles-formatting-completion.png); [original rough notes](../design-principles-accessibility-rough-notes.txt); [formatted document](design-principles-accessibility.md). |
+
+### Project documents
+- [design-principles-accessibility.md](design-principles-accessibility.md): Markdown-formatted copy of the design-principle and accessibility notes
+- [design-principles-accessibility-rough-notes.txt](../design-principles-accessibility-rough-notes.txt): original draft retained unchanged as evidence
+- [design-principles-formatting-completion.png](screenshots/design-principles-formatting-completion.png): screenshot of the request and completion summary
+
+### My decisions
+
+**Accepted**
+- I kept the original rough notes unchanged and added the Markdown version as a separate document.
+- I asked for the wording to remain unchanged; the changes are Markdown formatting only.
+
+**Rejected**
+- None recorded.
+
+### Limits of this evidence
+- The screenshot shows the request and completion summary, not the full conversation or the contents of the resulting files.
+- No commit was made as part of this edit.
