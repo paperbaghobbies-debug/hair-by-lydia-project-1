@@ -35,8 +35,8 @@ As a new visitor, I want to quickly see Lydia's work and learn who she is, so th
 
 ## Acceptance criteria
 1. Given a visitor opens the homepage, when it loads, then they see an approved hero image and a brief introduction to Lydia.
-2. Given a visitor views the homepage transformation showcase, when they inspect an approved example, then the before and after images are identified as a pair.
-3. Given a visitor uses a mobile device, when they view the homepage at the shared test widths, then the content remains readable and usable without horizontal scrolling or overlap.
+2. When a visitor opens the homepage, when the hero loads, then they see a slideshow of Lydia's approved featured work, with controls to move between slides and to pause and resume the slideshow.
+3. When a visitor uses a mobile device, when they view the homepage at the shared test widths, then the content remains readable and usable without horizontal scrolling or overlap.
 
 ## Dev notes
 - Approach: Use an accessible hero image and homepage introduction. A manually navigated slideshow is an option if Lydia approves it and provides suitable images.
