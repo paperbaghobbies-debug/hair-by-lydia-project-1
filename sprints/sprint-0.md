@@ -2,6 +2,8 @@
 
 **Status:** This plan stays a draft until the **[C]** items are confirmed. Nothing is marked Done unless evidence exists and is linked.
 
+**Current position (5 Nov 2026):** Card 6, wireframe key pages, is complete. Card 7, compiling the complete brief, is now in progress; Lydia's review/sign-off has not yet been evidenced.
+
 ## Source key
 
 | Tag | Meaning |
@@ -25,7 +27,7 @@ Evidence for each part:
 | Client-reviewed brief | [Lydia's feedback record](../docs/lydia-feedback.md) and [completed questionnaire](../docs/questionaire-hbl.md) exist, but record questionnaire answers rather than a review of the assembled brief. Brief review/sign-off is not evidenced yet. |
 | Researched feature decisions | [Feature research and decision log](../docs/feature-research.md) and [competitor comparison](../docs/competitor-research.md) exist. Some research checks and decisions remain open; see cards 2–3 below. |
 | Reviewed user stories | [User stories](../docs/user-stories.md) exist as a draft and link to the [requirements mapping](../docs/requirements-mapping.md) and feedback. Final review and resolution of open questions are not evidenced yet. |
-| Rough wireframes | None yet. Link the wireframe files for key pages and widths when they exist. |
+| Rough wireframes | [Mobile and desktop wireframes](../docs/wire-frames.md), checked against the [user stories](../docs/user-stories.md); review and decision record in [AI log Entry 9](../docs/ai_log.md). |
 
 ## 2. Scope
 
@@ -60,8 +62,8 @@ One card, one clear output.
 | 3 | Research features and options | 2 | Research and decision log | Options compared for form delivery, photo upload, review layout, Instagram content, update method and hosting/costs; each has a recommendation and cited source; time-boxed | Each decision has options, a source and a recommendation | [`docs/feature-research.md`](../docs/feature-research.md), [`features-research-rough-notes.txt`](../features-research-rough-notes.txt) (original notes), [`docs/ai_log.md`](../docs/ai_log.md) (Entry 6) | In progress — the log exists; provider feasibility, current terms and total ongoing costs still need verification. |
 | 4 | Get Lydia's feedback | 3 | Feedback record | Follow-up questions sent covering all open questions from cards 1–3; responses (or chasers) recorded with dates | Every open item shows an answer or a stated assumption | [`docs/lydia-feedback.md`](../docs/lydia-feedback.md), [`docs/questionaire-hbl.md`](../docs/questionaire-hbl.md), [`docs/requirements-mapping.md`](../docs/requirements-mapping.md) | In progress — client feedback was received and recorded, but it does not resolve every follow-up; address detail/privacy and deposit/late-arrival questions remain open. |
 | 5 | Finalise user stories | 4 | User stories v3 | Stories updated for Lydia's answers; priorities confirmed; criteria testable and tagged | Each story traces to a questionnaire answer or feedback | [`docs/user-stories.md`](../docs/user-stories.md), [`docs/requirements-mapping.md`](../docs/requirements-mapping.md), [`docs/lydia-feedback.md`](../docs/lydia-feedback.md) | In progress — stories exist as a draft; the Q12 source discrepancy is resolved, while the address/privacy decision and other open questions still need follow-up. |
-| 6 | Wireframe key pages | 5 | Rough wireframes (mobile and desktop) | Home, gallery, services and prices, enquiry form and FAQ covered; each maps to named stories | Wireframe checked against story list | None yet. Link when the file exists | Not started |
-| 7 | Compile the complete brief | 6 | Brief document | Scope, audience, content list, design direction, features, decisions and constraints in one place; Lydia has reviewed it | Lydia's review (and sign-off if given) recorded | None yet. Link when the file exists | Not started |
+| 6 | Wireframe key pages | 5 | Rough wireframes (mobile and desktop) | Home, gallery, services and prices, enquiry form and FAQ covered; each maps to named stories | Wireframe checked against story list | [`docs/wire-frames.md`](../docs/wire-frames.md), [`docs/user-stories.md`](../docs/user-stories.md), [`docs/ai_log.md`](../docs/ai_log.md) (Entry 9) | Done; review and decisions recorded |
+| 7 | Compile the complete brief | 6 | Brief document | Scope, audience, content list, design direction, features, decisions and constraints in one place; Lydia has reviewed it | Lydia's review (and sign-off if given) recorded | Draft and review evidence to be linked when available | In progress |
 
 ## 5. Definition of Done
 
@@ -72,9 +74,8 @@ A card moves to Done only when:
 - [ ] Evidence links only to files that exist; if a file does not exist yet, state "None yet. Link when the file exists"
 - [ ] Board card is moved to Done and linked to the evidence file
 - [ ] Any AI use is recorded in the AI log
-- [ ] Assumptions are tagged **[P]** and open questions **[C]**
 - [ ] Spoken agreements with Lydia are recorded in a dated note the same day
-- [ ] At sprint end, clear every **[C]** tag by confirming it or replacing it with a documented assumption; remove obsolete placeholders and fill in "Actual hours" at the end of each card
+- [ ] At sprint end, record unresolved questions and their next action, remove obsolete placeholders, and fill in "Actual hours" at the end of each card. For future sprints, **[Q]**, **[P]** and **[C]** tags are optional; there is no requirement to add or clear them.
 - [ ] Nothing is claimed that the evidence does not show
 
 ## 6. Dependencies and risks
@@ -119,7 +120,7 @@ A card moves to Done only when:
 | 3. Research features and options | 3 | Thu 29 Oct **[P]** | | Time-boxed; hosting options first |
 | 4. Get Lydia's feedback | 3 | Fri 30 Oct **[P]** | | Questions sent by 29 Oct; includes time for Lydia to reply |
 | 5. Finalise user stories | 4 | Mon 2 Nov **[P]** | | Depends on Lydia's answers |
-| 6. Wireframe key pages | 5 | Tue 3 Nov **[P]** | | |
+| 6. Wireframe key pages | 5 | Tue 3 Nov **[P]** | 4.5 (5 Nov) | Completed; evidence linked in card 6 |
 | 7. Compile the complete brief | 3 | Wed 4 Nov **[P]** | | Includes Lydia's review |
 | **Total** | **26** | | | |
 
