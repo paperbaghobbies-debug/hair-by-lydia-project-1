@@ -349,17 +349,21 @@ I recognised the change in my practice and decided to stop using handovers becau
 - [wireframe-review-decisions.png](screenshots/wireframe-review-decisions.png): user's clarifications and the enquiry-field update
 - [wireframe-review-log-update.png](screenshots/wireframe-review-log-update.png): request to record the interaction and completion summary
 
-### My decisions
+### My decisions and responses to AI suggestions
 
 **Accepted**
-- Phone is required and email is optional. The address/location field's detail and requiredness still need confirmation.
-- The About content is part of the homepage.
-- The review carousel may rotate slowly and must have user controls to pause it.
-- The hero design is my choice, following prior discussion with Lydia.
-- If the gallery is hand-built rather than sourced from Instagram, before/after images will have suitable alt text.
+- I accepted the enquiry-field correction: phone is required, email is optional, and the address/location field's detail and requiredness still need confirmation. Copilot updated the mobile and desktop wireframes accordingly.
 
-**Not changed**
-- I did not ask for changes to the other design decisions or review suggestions in this interaction.
+**AI suggestions not adopted**
+- Copilot suggested adding a separate About page and corresponding navigation/footer links. I did not adopt this because the About content is being incorporated into the homepage.
+- Copilot recommended that the reviews carousel not auto-rotate. I chose slow rotation with user controls to pause it.
+- Copilot suggested making the hero slideshow conditional or using a static fallback until approval. I chose the hero design after prior discussion with Lydia.
+
+**Clarification**
+- Copilot suggested distinct before-and-after image descriptions. Instagram-sourced images will use Lydia's Instagram content; if I hand-build the gallery, I will add suitable alt text for before-and-after images.
+
+**Other suggestions**
+- I made no further wireframe changes in response to the remaining review suggestions during this interaction.
 
 ### Limits of this evidence
 - This entry records the current conversation and the resulting enquiry-field edit; it does not establish that the discussed design choices have been implemented or tested.
