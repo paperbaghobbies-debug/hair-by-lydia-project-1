@@ -24,7 +24,9 @@ For my competitor research, Copilot advised on the file structure, checklist are
 
 On 29 October 2026, Copilot helped me turn my feature research rough notes into [`feature-research.md`](feature-research.md), structure and copy-edit the material, label proposals and open checks with [P] and [C], and link the document in the Sprint 0 plan. I supplied the research notes and the account that Lydia agreed to the decisions on 28 October; Copilot did not witness that discussion (see the [AI log](ai_log.md), Entry 6).
 
-As of 29 October 2026, I have not used AI to generate website code, final customer-facing website content, or external research. This statement concerns use so far and will be updated if that changes.
+On 31 October 2026, Copilot reformatted my design-principle and accessibility rough notes as Markdown without changing their wording. I retained the original notes and reviewed the formatted document (see the [AI log](ai_log.md), Entry 8).
+
+As of 31 October 2026, I have not used AI to generate website code, final customer-facing website content, or external research. This statement concerns use so far and will be updated if that changes.
 
 ## 3. Safeguards (Intended Practice)
 
@@ -36,12 +38,13 @@ I will disclose AI assistance accurately and distinguish AI suggestions from my 
 - The screenshots listed in the AI log and the relevant conversation records or transcripts.
 - Not every interaction has a screenshot, and no screenshot shows an absolute date. Dates come from my own record and the git history. The appendix-rewrite part of the disclosure review (AI log, Entry 4, rows 1 and 2) has no screenshot; one screenshot captures a later part of that session.
 - Copilot wrote the text of AI log Entry 6 at my request, and Copilot Chat helped correct the AI log against my screenshots on 29 October 2026. I reviewed these changes.
+- AI log Entry 8 records the 31 October formatting interaction and links to the original notes, formatted document, and screenshot of my request and the completion summary.
 - Copilot Chat auto-routes between models, and the model is shown in only some screenshots. Where a screenshot does not show the model, the AI log says so.
 - I hold the requirements mapping as my own working analysis. I can justify each row against Lydia's questionnaire answers and my needs for the project, even though the wording was adapted from AI drafts (AI log, Entries 2 and 3).
 
 ## 5. References
 
 - Anthropic (2026) *Claude Sonnet 5.5* [Generative AI] Available from https://claude.ai [Accessed 27 October 2026].
-- GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 26, 27 and 29 October 2026]. (Entry 4 also used Claude Sonnet 5.5 through Copilot's auto-routing.)
+- GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 26, 27, 29 and 31 October 2026]. (Entry 4 also used Claude Sonnet 5.5 through Copilot's auto-routing.)
 
 In-text citations use the form (GitHub, Copilot Chat, 2026) and (Anthropic, Claude Sonnet 5.5, 2026). Before submission I still need to check assessor access to `docs/screenshots/` and sign the JCQ declaration form.
