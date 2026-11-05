@@ -94,11 +94,11 @@ As a potential customer, I want to see genuine client reviews, so that I build t
 ## Acceptance criteria
 1. Given a visitor reaches the reviews section, when it loads, then the five reviews approved by Lydia are displayed with their original ratings where those ratings are available.
 2. Given a visitor reads a displayed review, when they inspect its details, then the approved client attribution and hair service are shown where those details are available in the approved review.
-3. Given a visitor reaches the reviews carousel, when they activate the previous or next control, then the carousel displays the adjacent review; keyboard users can operate both controls.
+3. Given the reviews carousel is active, when its interval elapses, then it advances slowly to the next review; visitors can pause and resume rotation, and keyboard users can operate the pause, previous and next controls.
 4. Given a visitor views the reviews on a mobile device, when they use the site at the shared test widths, then every review remains readable without horizontal scrolling or overlap.
 
 ## Dev notes
-- Approach: Feature the five reviews approved by Lydia in a manually controlled carousel with accessible previous and next controls, and provide a separate page for the full selection. Do not auto-rotate.
+- Approach: Feature the five reviews approved by Lydia in a slowly auto-rotating carousel with accessible pause/resume and previous/next controls, and provide a separate page for the full selection. Slow rotation is the student's design choice, informed by competitor research and the desired style.
 - Lydia's feedback: Approved five reviews to feature (Carlie Louise, Roxie Clarke, Lucy Stephenson, Khadija Torkhani, Melissa Sims). Permission to publish is confirmed.
 - Open questions / needs from Lydia: Check that the approved review sources include the ratings and service details required by the acceptance criteria; do not invent missing details.
 - Fallback: None.
