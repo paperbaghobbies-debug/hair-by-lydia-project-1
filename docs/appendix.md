@@ -1,5 +1,7 @@
 # Appendix I: AI Disclosure
 
+I use AI to help record and update my AI log so that the record of my AI use is accurate and the risk of human error is reduced. I review the entries and remain responsible for their accuracy.
+
 ## 1. Intended Use
 
 ### Active intentions
@@ -26,7 +28,9 @@ On 29 October 2026, Copilot helped me turn my feature research rough notes into 
 
 On 31 October 2026, Copilot reformatted my design-principle and accessibility rough notes as Markdown without changing their wording. I retained the original notes and reviewed the formatted document (see the [AI log](ai_log.md), Entry 8).
 
-As of 31 October 2026, I have not used AI to generate website code, final customer-facing website content, or external research. This statement concerns use so far and will be updated if that changes.
+On 5 November 2026, Copilot reviewed my wireframes against the project guide, client feedback, user stories and existing research. I clarified that the About content is being incorporated into the homepage; that the hero and slowly rotating review carousel, with user controls to pause, reflect my design decisions; and that Instagram-provided images will have a hand-built-gallery alt-text fallback. At my request, Copilot updated the enquiry wireframes to show phone as required, email as optional, and address/location details and requiredness as needing confirmation. I reviewed this change (see the [AI log](ai_log.md), Entry 9).
+
+As of 5 November 2026, I have not used AI to generate website code, final customer-facing website content, or external research. This statement concerns use so far and will be updated if that changes.
 
 ## 3. Safeguards (Intended Practice)
 
@@ -39,12 +43,13 @@ I will disclose AI assistance accurately and distinguish AI suggestions from my 
 - Not every interaction has a screenshot, and no screenshot shows an absolute date. Dates come from my own record and the git history. The appendix-rewrite part of the disclosure review (AI log, Entry 4, rows 1 and 2) has no screenshot; one screenshot captures a later part of that session.
 - Copilot wrote the text of AI log Entry 6 at my request, and Copilot Chat helped correct the AI log against my screenshots on 29 October 2026. I reviewed these changes.
 - AI log Entry 8 records the 31 October formatting interaction and links to the original notes, formatted document, and screenshot of my request and the completion summary.
+- AI log Entry 9 records the 5 November wireframe review, my design decisions, and the enquiry-field change.
 - Copilot Chat auto-routes between models, and the model is shown in only some screenshots. Where a screenshot does not show the model, the AI log says so.
 - I hold the requirements mapping as my own working analysis. I can justify each row against Lydia's questionnaire answers and my needs for the project, even though the wording was adapted from AI drafts (AI log, Entries 2 and 3).
 
 ## 5. References
 
 - Anthropic (2026) *Claude Sonnet 5.5* [Generative AI] Available from https://claude.ai [Accessed 27 October 2026].
-- GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 26, 27, 29 and 31 October 2026]. (Entry 4 also used Claude Sonnet 5.5 through Copilot's auto-routing.)
+- GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 26, 27, 29 and 31 October, and 5 November 2026]. (Entry 4 also used Claude Sonnet 5.5 through Copilot's auto-routing.)
 
 In-text citations use the form (GitHub, Copilot Chat, 2026) and (Anthropic, Claude Sonnet 5.5, 2026). Before submission I still need to check assessor access to `docs/screenshots/` and sign the JCQ declaration form.

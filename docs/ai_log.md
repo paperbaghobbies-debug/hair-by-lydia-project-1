@@ -324,3 +324,42 @@ I recognised the change in my practice and decided to stop using handovers becau
 ### Limits of this evidence
 - The screenshot shows the request and completion summary, not the full conversation or the contents of the resulting files.
 - No commit was made as part of this edit.
+
+## Entry 9: Wireframe review and enquiry-field update (Copilot)
+
+**Date:** 05/11/2026
+**Tool:** Copilot Chat in VS Code (Copilot SDK)
+**Reference:** GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 5 November 2026].
+**Purpose:** To review the wireframes against the project guide and existing project work, and record the user's decisions and the requested enquiry-field correction.
+
+### Interaction record
+
+| # | What I asked | What the AI returned | Evidence |
+|---|---|---|---|
+| 1 | I asked it to review my wireframes against the project guide and existing work. | It identified possible inconsistencies and omissions in the About page, enquiry fields and states, carousel controls, hero slideshow, FAQ, and gallery alt text. | [Screenshot of my review request and summary](screenshots/wireframe-review-summary.png); current Copilot Chat conversation (5 November 2026); [wireframes](wire-frames.md). |
+| 2 | I clarified that About content is being incorporated into the homepage; that the slowly rotating review carousel should let users pause it; and that the hero design is my choice, discussed with Lydia. I also said Instagram-provided images should have before/after alt text if a hand-built gallery is used. I asked it to correct the enquiry fields. | It changed the mobile and desktop enquiry wireframes to show phone as required, email as optional, and address/location details and requiredness as needing confirmation. It made no other wireframe changes. | [Screenshot of my decisions and the enquiry-field update](screenshots/wireframe-review-decisions.png); current Copilot Chat conversation (5 November 2026); [wireframes](wire-frames.md). |
+| 3 | I asked Copilot to record the interaction in the appendix and AI log. | It added this entry and updated the appendix disclosure. | [Screenshot of my logging request and completion summary](screenshots/wireframe-review-log-update.png); current Copilot Chat conversation (5 November 2026); [appendix](appendix.md). |
+
+### Project documents
+- [wire-frames.md](wire-frames.md): enquiry-field labels updated in the mobile and desktop wireframes
+- [appendix.md](appendix.md): disclosure of this AI-assisted review and the user's decisions
+
+### Screenshots
+- [wireframe-review-summary.png](screenshots/wireframe-review-summary.png): review request and summary
+- [wireframe-review-decisions.png](screenshots/wireframe-review-decisions.png): user's clarifications and the enquiry-field update
+- [wireframe-review-log-update.png](screenshots/wireframe-review-log-update.png): request to record the interaction and completion summary
+
+### My decisions
+
+**Accepted**
+- Phone is required and email is optional. The address/location field's detail and requiredness still need confirmation.
+- The About content is part of the homepage.
+- The review carousel may rotate slowly and must have user controls to pause it.
+- The hero design is my choice, following prior discussion with Lydia.
+- If the gallery is hand-built rather than sourced from Instagram, before/after images will have suitable alt text.
+
+**Not changed**
+- I did not ask for changes to the other design decisions or review suggestions in this interaction.
+
+### Limits of this evidence
+- This entry records the current conversation and the resulting enquiry-field edit; it does not establish that the discussed design choices have been implemented or tested.
