@@ -39,8 +39,8 @@ As a new visitor, I want to quickly see Lydia's work and learn who she is, so th
 3. When a visitor uses a mobile device, when they view the homepage at the shared test widths, then the content remains readable and usable without horizontal scrolling or overlap.
 
 ## Dev notes
-- Approach: Use an accessible hero image and homepage introduction. A manually navigated slideshow is an option if Lydia approves it and provides suitable images.
-- Open questions / needs from Lydia: High-resolution hero images, a profile photo, and short bio copy. Confirm whether she wants a slideshow.
+- Approach: Use an accessible hero slideshow of Lydia's approved featured work, with a brief introduction and an About Lydia section on the homepage. Lydia requested the slideshow.
+- Open questions / needs from Lydia: High-resolution hero images, a profile photo, and short bio copy.
 - Fallback: Use one approved static hero image until custom assets are available.
 
 ## Status
@@ -155,8 +155,9 @@ As a client interested in this service, I want to enquire about a service or ask
 3. Given Lydia receives an enquiry, when she considers a booking, then the site makes clear that the enquiry does not confirm a booking and that she consults with the client before manually confirming the service and appointment. Whether the form itself starts the online consultation or Lydia follows up separately remains to be confirmed.
 4. Given a user submits a valid enquiry, when the form successfully processes it, then the user sees a confirmation that Lydia aims to reply within one working day. If the user provided an email address, an automatic acknowledgement is sent to that address.
 5. Given a user submits personal information, when they review the form before submission, then a concise privacy notice explains what information is collected, why, who receives or processes it, and the verified handling and retention/deletion approach.
-6. Given a user leaves a required field blank or enters invalid data, when they submit the form, then validation identifies the problem and prevents invalid data from being processed.
-7. Given the form cannot send an enquiry, when an error occurs, then the user is told the enquiry was not sent and is offered an alternative contact method.
+6. Given a user opens the enquiry form, when it renders, then an optional "How did you hear about Lydia?" dropdown offers: word of mouth, Google/search, Instagram, Facebook, other, and prefer not to say. The selected answer is included in the enquiry email, and no backend tracking is added.
+7. Given a user leaves a required field blank or enters invalid data, when they submit the form, then validation identifies the problem and prevents invalid data from being processed.
+8. Given the form cannot send an enquiry, when an error occurs, then the user is told the enquiry was not sent and is offered an alternative contact method.
 
 ## Dev notes
 - Approach: A form with required fields that sends an email to Lydia.
@@ -235,7 +236,7 @@ As a visitor, I want to understand Lydia's cancellation terms and when deposits 
 # User Story US08: Lydia's training
 
 **Requirement refs:** Q5, Q13, Q22
-**Page:** About
+**Page:** Home (About Lydia section; the separate About page was dropped)
 **Priority:** Should
 **Depends on:** None
 
@@ -243,12 +244,12 @@ As a visitor, I want to understand Lydia's cancellation terms and when deposits 
 As a visitor thinking of using Lydia's services, I want to see what training she has done, so that I can trust the services on offer.
 
 ## Acceptance criteria
-1. Given a visitor navigates to the About page, when they view the background section, then Lydia's confirmed training, qualifications, and professional background are presented.
-2. Given Lydia has not confirmed a training or qualification detail, when the About page is published, then that unconfirmed claim is not included.
-3. Given a visitor views the About page on a mobile device, when they use the site at the shared test widths, then the text remains readable without horizontal scrolling or overlap.
+1. Given a visitor views the About Lydia section on the homepage, when they read the background content, then Lydia's confirmed training, qualifications, and professional background are presented.
+2. Given Lydia has not confirmed a training or qualification detail, when the homepage is published, then that unconfirmed claim is not included.
+3. Given a visitor views the About Lydia section on a mobile device, when they use the site at the shared test widths, then the text remains readable without horizontal scrolling or overlap.
 
 ## Dev notes
-- Approach: Create a separate About page with Lydia's background, training, and qualifications.
+- Approach: Include Lydia's background, training, and qualifications in the About Lydia section on the homepage. The separate About page was dropped in favour of the homepage section.
 - Open questions / needs from Lydia: Ask for her training, qualifications, and professional background.
 - Fallback: Do not make claims about qualifications that Lydia has not confirmed.
 
