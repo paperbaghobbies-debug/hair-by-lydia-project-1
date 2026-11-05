@@ -72,7 +72,7 @@
 
 **Research:** I reviewed [accessible carousel guidance](https://www.a11y-collective.com/blog/accessible-carousel/), a [reviews-carousel example](https://github.com/antonADev/reviews-carousel), and a [carousel implementation video](https://www.youtube.com/watch?v=nbNBe2bAw8c).
 
-**Proposal:** Build a custom HTML, CSS and JavaScript carousel with manual previous/next controls. Keep the reviews readable without JavaScript, provide text alternatives for star ratings, and reuse the reviews as cards on a dedicated Reviews page. Do not use auto-rotation or Google Reviews integration. **[P]**
+**Proposal:** Build a custom HTML, CSS and JavaScript carousel that rotates slowly, with manual previous/next and pause/resume controls. Slow rotation is the student's design choice, informed by competitor research and the desired style. Keep the reviews readable without JavaScript, provide text alternatives for star ratings, and reuse the reviews as cards on a dedicated Reviews page. Do not use Google Reviews integration. **[P]**
 
 **To confirm:** Check the approved review sources for original ratings and service details before displaying them; do not invent missing information. Lydia selected the five featured reviews and confirmed permission to publish them in her completed questionnaire. **[C]**
 
