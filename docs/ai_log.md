@@ -367,3 +367,62 @@ I recognised the change in my practice and decided to stop using handovers becau
 
 ### Limits of this evidence
 - This entry records the current conversation and the resulting enquiry-field edit; it does not establish that the discussed design choices have been implemented or tested.
+
+## Entry 10: Website brief revised from rough notes (Copilot)
+
+**Date:** 5/11/2026
+
+**Tool:** Copilot Chat in VS Code. The first review used GPT-6 Luna (shown in the screenshot). Later turns, including drafting the brief and this entry, were handled by Claude Sonnet 5.5 (stated by the assistant in the conversation; no screenshot shows this).
+
+**Reference:** GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 5 November 2026].
+
+**Purpose:** To review my rough website brief against my existing project documents, put questions to me about open wording and decisions, prepare a Markdown brief from my rough notes and answers, and record my decisions about the review.
+
+**Authorship:** Copilot drafted the text of `docs/brief.md` and of this entry at my request. The ideas, decisions and answers come from my rough notes and my replies; the wording is Copilot's. I will reword the brief in my own words before submitting it as my own work.
+
+### Interaction record
+
+| # | What I asked | What the AI returned | Evidence |
+|---|---|---|---|
+| 1 | I asked how I could improve my rough website brief into a finalised version. I then clarified that deposits are upon request; Lydia aims to reply within two working days; 25 December remains the deadline, with a grace period through 1 January if needed. I asked the AI to ask me about unresolved edits and changes, reflect what I kept, rejected or changed, update the AI log, and reference my rough notes as evidence. | Copilot reviewed the rough notes against the existing brief-related project documents, asked me questions (shown in the screenshot of my answers), then created a new `docs/brief.md` while retaining the rough notes as source evidence. It incorporated my corrections, kept my proposals distinct from Lydia's input, and recorded remaining checks without claiming Lydia had reviewed or signed off the brief. | [Original rough notes](../brief-rough-note.txt); [new website brief](brief.md); current Copilot Chat conversation (5 November 2026); [screenshot of my review request and the initial review](screenshots/brief-review-request.png); [screenshot of the questions and my answers](screenshots/brief-question-answers.png); [screenshot of my logging request and completion summary](screenshots/brief-log-update.png). |
+
+### Project documents
+
+- [brief.md](brief.md): new Markdown website brief prepared from my rough notes
+- [brief-rough-note.txt](../brief-rough-note.txt): original rough notes retained as evidence
+- [brief-review-request.png](screenshots/brief-review-request.png): my review request and the AI's initial review
+- [brief-question-answers.png](screenshots/brief-question-answers.png): the questions Copilot asked and my answers (the right edge of the longest answer is cropped)
+- [brief-log-update.png](screenshots/brief-log-update.png): my logging request and completion summary
+- [user-stories.md](user-stories.md), [feature-research.md](feature-research.md), [wire-frames.md](wire-frames.md), [lydia-feedback.md](lydia-feedback.md) and [questionaire-hbl.md](questionaire-hbl.md): documents checked for consistency
+
+### My decisions and responses to AI suggestions
+
+**Kept or confirmed**
+
+- I confirmed that deposits may be required upon request.
+- I confirmed the project deadline remains 25 December 2026, with a grace period through 1 January 2027 if needed.
+- I confirmed that the proposed usability targets are intended goals and should not make the design harder. (Evidence: [my answers](screenshots/brief-question-answers.png).)
+- I kept the hero slideshow after tweaking it and speaking to Lydia, and I will build a fallback if Instagram fails. My answer also mentions the About page at Lydia's request, but that part is cropped in the screenshot, so I am not relying on it here.
+- I answered that the brief should be a fresh `docs/brief.md`, with the existing files kept as evidence and linked. The original rough notes remain in place.
+- I answered "Correct" when asked to confirm that the brief should use my voice and approval status. I understand now that Copilot wrote the wording, so I will reword it myself.
+- I stated that January 1st is a grace period if needed.
+
+**Changed or clarified**
+
+- I corrected the response-time wording to say that Lydia aims to reply within two working days. When asked about it, I answered that this conversation with Lydia is not recorded because I do not keep a log of every conversation. It is therefore my account only. The earlier questionnaire and user-story documents state one working day, and I have not yet updated them.
+- I corrected the earlier review's deposit wording: deposits are upon request.
+- I said 25 December remains the deadline, with 1 January as a grace period.
+- I identified Instagram feasibility, and which images Lydia prefers for the hero slideshow and About section, as the remaining open questions. Form location and privacy/data-handling details are still tracked as an implementation blocker in US05.
+
+**Rejected**
+
+- None recorded. The usability targets are goals and not mandatory acceptance criteria, as recorded above.
+
+### Limits of this evidence
+
+- The rough notes are the source evidence for the original draft.
+- The two-working-day response target is my account of a conversation with Lydia and has no separate written record.
+- The three screenshots show only parts of the conversation: my first request with the initial review (model GPT-6 Luna), the questions and my answers, and my later logging request with the completion summary. They show clock times only, not dates, so the date comes from my own record. The answers screenshot is cropped on the right.
+- My clarifications about deposits and the two-working-day reply aim are not in any screenshot. They appear only in the conversation text.
+- Copilot wrote this entry and `docs/brief.md`. I have not yet confirmed with my teacher that AI drafting is permitted for this assessment, and the JCQ declaration is still to be completed.
+- This entry and the brief do not establish that Lydia has reviewed or signed off the new brief, that the proposed design has been built, or that the site has been tested.
