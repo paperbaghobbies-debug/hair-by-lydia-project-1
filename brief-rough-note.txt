@@ -1,0 +1,183 @@
+ Hair by Lydia: Website Brief 
+**Date: 5 Nov 2026
+
+
+**Sources: Questionnaire (29 Oct 2026), [lydia-feedback.md](docs/lydia-feedback.md), [user-stories.md](docs/user-stories.md), [feature-research.md](docs/feature-research.md), [competitor-research.md](docs/competitor-research.md), [wire-frames.md](docs/wire-frames.md), [design-principles-accessibility.md](docs/design-principles-accessibility.md), [requirements-mapping.md](docs/requirements-mapping.md)
+
+1. Purpose
+
+Hair by Lydia is a home-visit hairdressing service covering Banbury and surrounding villages. The website should build trust quickly and make it easy to make an enquiry. 
+Lydia chose making an enquiry as the first action, but we agreed with her to lead with who she is and what she does, so visitors trust her before the layout guides them naturally to the enquiry button. 
+The site should feel professional and work well on phones, tablets and desktops. Proposed usability target [P]: every page should be reachable within three clicks, and clear links to her work and contact details should be easy to find on every page. Check this target against the project specification and the built site.
+
+Success looks like:
+
+- **Client outcome Lydia receives more enquiries and bookings from new clients who found her online.
+- **Proposed usability target A new visitor can see Lydia's work, prices and reviews, and send an enquiry in under two minutes on a phone. Validate this with mobile usability testing.
+- Lydia can keep the site current through a low-effort process of sending updates for me to publish.
+
+2. Audience
+
+- Local people looking for a trusted home-visit hairdresser, mostly on mobile. 
+- Visitors arriving from Instagram, Facebook, WhatsApp and word of mouth. 
+- Clients who need reassurance about price, travel, deposits and reply time. 
+
+3. Scope
+The project runs from Sprint 0 to a finished site by 25 Dec 2026. Sprint 0 is planning only, and it ends with a client-reviewed brief. 
+Sprint 1 builds the site: shared layout and navigation, the Home, Services and Prices, Enquiry, Reviews, Gallery and FAQ pages, form validation, Lydia's real content, and a README. 
+Sprint 2 covers testing, deployment and documentation: responsive and accessibility checks, manual test procedures and results, deploying with the domain, screenshots, lifecycle documentation, a handover guide for how Lydia sends updates,
+and a final check against the specification. A short buffer before 25 Dec is for fixes and submission checks. Out of scope are online booking and payments, a self-service CMS, photo upload on the form, and maintenance beyond the project end. 
+The main risks are Instagram feed feasibility, late content from Lydia, unverified costs, and leaving evidence gathering to the end. 
+
+- Out of Scope
+Online booking, payments and deposit handling are out because Lydia consults clients and confirms appointments manually, so the site only states that a deposit may be required.
+A self-service CMS and post-project maintenance are out because she prefers to send updates for me to publish. 
+At her request, there is no photo upload on the form (photos come later by WhatsApp), and prices are "from" prices only, with no service durations. Lydia confirmed there is no minimum booking (Q15); the current project decision in US06 is not to state this on the site.
+
+4. Content inventory
+
+Received from Lydia
+| Item | Used on | Notes |
+|---|---|---|
+| Logo and brand files | All pages | |
+| Fonts | All pages | |
+| Contact links (WhatsApp, Instagram, Facebook) | All pages, Enquiry | |
+| Area covered | Home, FAQ | Banbury and surrounding villages |
+| Services and "from" prices | Services (US06) | Price list only, no durations |
+| Travel wording | Services, FAQ | Extra costs may apply and will be discussed before confirming |
+| Deposit wording | Services, FAQ | May be required upon booking |
+| Five reviews | Reviews, Home (US03) | Permission given |
+
+Still to supply or write
+| Item | Used on | Who | Next step |
+|---|---|---|---|
+| Hero slideshow images (high resolution) | Home (US01) | Lydia | Request; she approves the featured work |
+| About text and photo (About Lydia section on Home) | Home (US01, US08) | Lydia | Request |
+| Gallery photos | Gallery (US04) | Lydia | She approves each photo |
+| Intro line and enquiry button wording | Home, all pages (US02) | Me | Draft, Lydia approves |
+| Photo alt text | Gallery, Home | Me | Draft, Lydia checks |
+| New email address | All pages, Enquiry | Lydia | Expected in the coming days; plan for email contact and form delivery, then confirm the address before configuration and testing |
+| Form fields, acknowledgement and privacy note | Enquiry (US05) | Me | Phone required, email optional; address/location detail and requiredness pending clarification |
+| FAQ questions and answers | FAQ (US07) | Me | Draft confirmed cancellation terms and deposit wording for Lydia's approval; late-arrival terms remain unconfirmed |
+
+Rules
+- Lydia approves every gallery photo and all copy I write before it goes live.
+- Don't put her WhatsApp number or client photos in a public repository unless she agrees.
+- Photos are updated about monthly and prices about yearly, sent to me to publish.
+
+Notes:
+- Set an image size and file-size limit so the site stays fast on mobile.
+- Photos are updated about monthly and prices about yearly, sent to me to publish.
+- Statuses: Not requested → Requested → Received → Approved → Published.
+
+ 5. Features and decisions
+
+- **Enquiry form**
+  - Fields: name, phone (required), email (optional), short description, and a location/address field only after its detail and requiredness are confirmed.
+  - Optional "How did you hear about Lydia?" dropdown (word of mouth, Google/search, Instagram, Facebook, other, prefer not to say). The answer is included in the enquiry email only; no tracking. Added to the enquiry wireframes and US05.
+  - Automatic acknowledgement after submission when the client provides an email address.
+  - Lydia's new email address is expected in the coming days. For planning, proceed on the assumption that an email address will be available; confirm the actual address before configuring and testing delivery.
+  - Site states a reply within one working day.
+- **Reviews**
+  - Agreed: a few featured reviews, plus a separate page for the full selection.
+  - Decision: show the five approved reviews in a slowly rotating carousel on the Home page, with previous/next and pause/resume controls that keyboard users can operate. This is my design choice, informed by the competitor research and the style I want. It must stay readable without JavaScript, and star ratings need text alternatives. The same reviews are reused as cards on the Reviews page. Google Reviews integration is not planned.
+  - To confirm: the original ratings and service details for each review; do not invent missing information.
+- **Content updates**
+  - Lydia sends photos (about monthly) and prices (about yearly) to me to publish.
+
+Items to finalize
+- **Cancellation policy and deposits**
+  - Confirmed cancellation terms (Q12): no fee with at least 2 days' notice; 50% of the booked service cost with 1 day's notice; 100% for same-day cancellation or no-show. Outstanding cancellation fees must be paid in full before future appointments can be booked or confirmed.
+  - Deposits may be required upon request; the amount, payment method, refund terms and circumstances are not specified.
+  - Late-arrival terms were not provided and remain to be confirmed. The FAQ should not invent a policy.
+- **Gallery**
+  - Preferred: recent Instagram posts, if practical.
+  - Fallback: a manually updated gallery.
+  - Lydia approves photos first.
+  - Feasibility still to verify.
+- **Domain**
+  - Lydia owns and pays.
+  - Preferred: Hairbylydia-Banbury.
+  - Availability to check.
+- **Hosting and running costs**
+  - Options researched.
+  - Current terms to verify.
+
+6. User stories
+
+| ID | Story | Page | Priority | Status |
+|---|---|---|---|---|
+| [US01](docs/user-stories.md#user-story-us01-hero-and-about-on-homepage) | Hero and about on homepage | Home | Must | In progress |
+| [US02](docs/user-stories.md#user-story-us02-enquiry-call-to-action-on-every-page) | Enquiry call to action on every page | Site-wide | Should | To do |
+| [US03](docs/user-stories.md#user-story-us03-genuine-client-reviews) | Genuine client reviews (carousel plus full page) | Reviews / site-wide | Should | In progress |
+| [US04](docs/user-stories.md#user-story-us04-gallery-with-before-and-afters) | Gallery with before and afters | Gallery | Must | To do |
+| [US05](docs/user-stories.md#user-story-us05-enquiry-form) | Enquiry form | Home / Contact | Must | Blocked: location and privacy questions |
+| [US06](docs/user-stories.md#user-story-us06-services-and-prices-in-one-click) | Services and prices in one click | Services & Prices | Should | To do |
+| [US07](docs/user-stories.md#user-story-us07-cancellation-policy-and-deposits) | Cancellation policy and deposits | FAQ | Should | To do |
+| [US08](docs/user-stories.md#user-story-us08-lydias-training) | Lydia's training | Home (About Lydia section) | Should | To do |
+| [US09](docs/user-stories.md#user-story-us09-social-media-and-contact-links) | Social media and contact links | Site-wide | Should | To do |
+
+Full acceptance criteria, dev notes and evidence are in [user-stories.md](docs/user-stories.md).
+Every story must also meet the shared acceptance checks in that file: layout tested at 320, 768 and 1280 px, alt text, keyboard use, WCAG AA contrast, semantic headings and working links.
+
+7. Design direction
+
+- **Feel:** Warm, personal, uncluttered and trustworthy, with real photos of Lydia's work.
+- **Palette (approved by Lydia):** Taupe `#7F7367`, Cream `#FAF3EB`, Dark brown `#342B24`, Muted gold `#C6A15B`. Check text and button contrast against WCAG AA.
+- **Typography:** Follow Lydia's font preference from the first questionnaire; readable body text with a clear heading hierarchy. Lato is proposed for body text in the wireframes and awaits Lydia's confirmation.
+- **Layout:** Mobile-first, separate pages, a clear enquiry button on every page.
+- **Accessibility:** Alt text on all images, keyboard navigation, visible focus, sufficient contrast, labelled form fields. See the checklist in [design-principles-accessibility.md](docs/design-principles-accessibility.md).
+- **Hero:** a slideshow of Lydia's approved featured work, at her request, with controls to move between slides and to pause and resume (US01). Needs high-resolution images from Lydia.
+- **Wireframes:** key pages are sketched for mobile and desktop ([wire-frames.md](docs/wire-frames.md)). The optional "How did you hear about Lydia?" dropdown was missing from my hand-note sketch, so I added it to the typed enquiry wireframes.
+- **No separate About page:** we moved from a separate About page to an "About Lydia" section on the Home page, covered by US01 and US08.
+
+8. Colour palette 
+
+Lydia approved this palette on 29 Oct 2026 in her questionnaire reply. 
+It comes from her existing branding: taupe was sampled from her logo background.
+
+| Colour | Hex | Role on the site |
+|---|---|---|
+| Taupe | `#7F7367` | Navigation bar and header (white text) |
+| Cream | `#FAF3EB` | Main page background |
+| Dark brown | `#342B24` | Body text and headings |
+| Muted gold | `#C6A15B` | Calls to action, with dark brown text |
+
+**Contrast checks (WCAG 2.2)**
+- White on taupe: 4.61:1, passes AA for normal text.
+- Dark brown on cream: 12.58:1, passes AAA.
+- Dark brown on muted gold: 5.70:1, passes AA.
+
+**Still to confirm**
+- Contrast of hover, active and keyboard-focus states on each background.
+- Final rendered combinations in the built site, plus focus indicators that contrast with each surface.
+
+**Related decision:** the header is a fixed taupe bar from the top of the page. On 28 Oct 2026 Lydia agreed to drop the transparent header, because her logo would not blend into a transparent bar.
+
+**Fonts:** Noto Serif Display Extra Condensed for the "Hair by Lydia" branding and Luxurious Script for other branding, as Lydia requested **[Q]**. Lato is proposed for body text and still needs to be shown to Lydia for confirmation **[P/C]**.
+
+9. Constraints
+
+- Lydia owns and pays for the domain.
+- Lydia prefers to send updates rather than edit the site herself, so no self-service CMS.
+- Her client photo permission also covers website use. 
+- Ongoing costs are still to be confirmed.
+
+10. Open questions and assumptions
+
+| # | Item | Owner | Next action |
+|---|---|---|---|
+| 1 | Address collection and privacy wording | Student and Lydia | Propose option |
+| 2 | Instagram feed feasibility and cost | Student | Verify |
+| 3 | Hosting and domain costs | Student | Verify |
+| 4 | About text | Lydia | Request |
+| 5 | Review ratings and service details | Lydia / Student | Check approved review sources; do not invent missing details |
+| 6 | Body font | Student and Lydia | Show proposed Lato choice for confirmation |
+
+
+11. Review and sign-off
+
+Plan: finish this rough draft, email it to Lydia for review, record the date sent and her reply, then produce the final markdown brief.
+| Date | Reviewer | Outcome | Evidence |
+|---|---|---|---|
+| (pending) | Lydia | | None yet. Link when available |
