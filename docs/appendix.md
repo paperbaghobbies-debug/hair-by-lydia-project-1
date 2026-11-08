@@ -8,6 +8,8 @@ I use AI to help record and update my AI log so that the record of my AI use is 
 
 I intend to use AI as a mentoring, reviewing, and brainstorming partner to discuss architectural options, review project structure, and explore conceptual approaches. When I explicitly request it and course rules permit, I may also use AI to draft, structure, format or edit project documents. If I use AI-generated code or snippets, I intend to treat them as conceptual examples or prototypes and write my implementation independently rather than copying or adapting generated code. These are intended safeguards, not a claim about work completed so far.
 
+I use AI to review project work, identify possible inconsistencies and help draft or edit wording. Where appropriate, I direct it to ask me questions so that my decisions, experiences and intended meaning are reflected. I review its suggestions and remain responsible for the final decisions and for checking the accuracy of the work. The AI log identifies the assistance used and the decisions I accepted, changed or rejected.
+
 ### Undecided possibilities
 
 Further writing-support assistance beyond the uses listed in section 2, and automated-test assistance, remain undecided and are not established as active project practices.
@@ -30,6 +32,12 @@ On 31 October 2026, Copilot reformatted my design-principle and accessibility ro
 
 On 5 November 2026, Copilot reviewed my wireframes against the project guide, client feedback, user stories and existing research. I clarified that the About content is being incorporated into the homepage; that the hero and slowly rotating review carousel, with user controls to pause, reflect my design decisions; and that Instagram-provided images will have a hand-built-gallery alt-text fallback. At my request, Copilot updated the enquiry wireframes to show phone as required, email as optional, and address/location details and requiredness as needing confirmation. I reviewed this change (see the [AI log](ai_log.md), Entry 9).
 
+On 5 November 2026, Copilot reviewed my rough brief and drafted `brief.md` and an AI-log entry from my notes and answers. The ideas and decisions came from me, but the wording was Copilot's. I will ask my assessor how the AI-drafted material may be used and evidenced; rewriting it does not by itself establish independent authorship (see [AI log Entry 10](ai_log.md#entry-10-website-brief-revised-from-rough-notes-copilot)).
+
+On 8 November 2026, Copilot reviewed my user stories and planned build, recommended changes, and drafted and applied updates to planning documents after my approval. I provided decisions and clarifications. I initially approved a proposal that omitted a separate address field, then withdrew that approval and decided to require the client's full address. Copilot also drafted the associated AI-log entry. The linked screenshots show only parts of the interaction, not the later address reconsideration (see [AI log Entry 11](ai_log.md#entry-11-user-story-review-and-sprint-plan-alignment)).
+
+Copilot also assisted with the Sprint 0 closure record and, on 8 November, reviewed the project foundations against the project and AI assessment guidance. At my request it corrected the address chronology and updated this appendix. I remain responsible for checking these records and will ask my assessor how to disclose and submit AI-assisted material.
+
 As of 5 November 2026, I have not used AI to generate website code, final customer-facing website content, or external research. This statement concerns use so far and will be updated if that changes.
 
 ## 3. Safeguards (Intended Practice)
@@ -44,12 +52,13 @@ I will disclose AI assistance accurately and distinguish AI suggestions from my 
 - Copilot wrote the text of AI log Entry 6 at my request, and Copilot Chat helped correct the AI log against my screenshots on 29 October 2026. I reviewed these changes.
 - AI log Entry 8 records the 31 October formatting interaction and links to the original notes, formatted document, and screenshot of my request and the completion summary.
 - AI log Entry 9 records the 5 November wireframe review, my design decisions, and the enquiry-field change.
+- AI log Entries 10 and 11 identify the AI-drafted or edited documents, my decisions, and the screenshots available. Those screenshots cover only portions of the interactions; the later address reconsideration is recorded from the conversation, not the screenshots.
 - Copilot Chat auto-routes between models, and the model is shown in only some screenshots. Where a screenshot does not show the model, the AI log says so.
 - I hold the requirements mapping as my own working analysis. I can justify each row against Lydia's questionnaire answers and my needs for the project, even though the wording was adapted from AI drafts (AI log, Entries 2 and 3).
 
 ## 5. References
 
 - Anthropic (2026) *Claude Sonnet 5.5* [Generative AI] Available from https://claude.ai [Accessed 27 October 2026].
-- GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 26, 27, 29 and 31 October, and 5 November 2026]. (Entry 4 also used Claude Sonnet 5.5 through Copilot's auto-routing.)
+- GitHub (2026) *GitHub Copilot Chat* [Generative AI] Available from https://github.com/features/copilot [Accessed 26, 27, 29 and 31 October, and 5 and 8 November 2026]. (Entry 4 also used Claude Sonnet 5.5 through Copilot's auto-routing.)
 
-In-text citations use the form (GitHub, Copilot Chat, 2026) and (Anthropic, Claude Sonnet 5.5, 2026). Before submission I still need to check assessor access to `docs/screenshots/` and sign the JCQ declaration form.
+In-text citations use the form (GitHub, Copilot Chat, 2026) and (Anthropic, Claude Sonnet 5.5, 2026). Before submission I still need to confirm permitted AI use and evidence requirements with my assessor, check assessor access to `docs/screenshots/`, and declare AI use before signing the JCQ declaration form.

@@ -31,7 +31,7 @@ Use a separate row for each test and environment where appropriate.
 
 | Test ID | Linked story | Steps | Expected result | Actual result | Status | Bug/fix notes |
 |---|---|---|---|---|---|---|
-| T01 | [US01](./user-stories.md#user-story-us01-hero-and-about-on-homepage) | Open the homepage at 320, 768 and 1280 CSS pixels. Check the content and controls at each width. | Content and controls remain available without horizontal page scrolling or overlapping content. | Not tested | Planned | None yet |
+| T01 | [US01](./docs/user-stories.md#user-story-us01-hero-and-about-on-homepage) | Open the homepage at 320, 768 and 1280 CSS pixels. Check the content and controls at each width. | Content and controls remain available without horizontal page scrolling or overlapping content. | Not tested | Planned | None yet |
 | T02 | To be added | | | Not tested | Planned | None yet |
 
 ### Status key

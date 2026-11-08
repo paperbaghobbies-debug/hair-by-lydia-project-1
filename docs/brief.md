@@ -2,7 +2,7 @@
 
 **Date:** 5 November 2026
 
-**Status:** Client-reviewed; positive feedback received
+**Status:** Client-reviewed; student treats positive feedback as sign-off of the reviewed version
 
 **Source key**
 
@@ -193,7 +193,7 @@ US05 includes a required full-address field. Verify the form provider and its ac
 
 ## 9. Review and sign-off
 
-The brief was sent to Lydia for review on 6 November 2026. She replied positively on the same day. Her response is recorded as a review, rather than a formal sign-off; the outstanding checks above still apply.
+The brief was sent to Lydia for review on 6 November 2026. She replied positively on the same day. I treat her response as formal sign-off of the brief she reviewed; it does not automatically sign off later changes. The outstanding checks above still apply.
 
 | Date | Reviewer | Outcome | Evidence |
 |---|---|---|---|

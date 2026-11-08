@@ -36,7 +36,7 @@ These checks apply to every story and page:
 As a new visitor, I want to quickly see Lydia's work and learn who she is, so that I can decide whether her services may suit me.
 
 ## Acceptance criteria
-1. Given a visitor opens the homepage, when it loads, then they see an approved hero image and a brief introduction to Lydia.
+1. Given a visitor opens the homepage, when it loads, then they see an approved hero slideshow and a brief About Lydia section.
 2. When a visitor opens the homepage, when the hero loads, then they see a slideshow of Lydia's approved featured work, with controls to move between slides and to pause and resume the slideshow.
 3. When a visitor uses a mobile device, when they view the homepage at the shared test widths, then the content remains readable and usable without horizontal scrolling or overlap.
 

@@ -378,7 +378,7 @@ I recognised the change in my practice and decided to stop using handovers becau
 
 **Purpose:** To review my rough website brief against my existing project documents, put questions to me about open wording and decisions, prepare a Markdown brief from my rough notes and answers, and record my decisions about the review.
 
-**Authorship:** Copilot drafted the text of `docs/brief.md` and of this entry at my request. The ideas, decisions and answers come from my rough notes and my replies; the wording is Copilot's. I will reword the brief in my own words before submitting it as my own work.
+**Authorship:** Copilot drafted the text of `docs/brief.md` and of this entry at my request. The ideas, decisions and answers come from my rough notes and my replies; the wording is Copilot's. I will ask my assessor how this AI-drafted material may be used and evidenced. Rewording it does not by itself establish that it is independently produced work.
 
 ### Interaction record
 
@@ -404,12 +404,12 @@ I recognised the change in my practice and decided to stop using handovers becau
 - I confirmed that the proposed usability targets are intended goals and should not make the design harder. (Evidence: [my answers](screenshots/brief-question-answers.png).)
 - I kept the hero slideshow after tweaking it and speaking to Lydia, and I will build a fallback if Instagram fails. My answer also mentions the About page at Lydia's request, but that part is cropped in the screenshot, so I am not relying on it here.
 - I answered that the brief should be a fresh `docs/brief.md`, with the existing files kept as evidence and linked. The original rough notes remain in place.
-- I answered "Correct" when asked to confirm that the brief should use my voice and approval status. I understand now that Copilot wrote the wording, so I will reword it myself.
+- I answered "Correct" when asked to confirm that the brief should use my voice and approval status. I understand now that Copilot wrote the wording; I will check with my assessor how to use it.
 - I stated that January 1st is a grace period if needed.
 
 **Changed or clarified**
 
-- I corrected the response-time wording to say that Lydia aims to reply within two working days. When asked about it, I answered that this conversation with Lydia is not recorded because I do not keep a log of every conversation. It is therefore my account only. The earlier questionnaire and user-story documents state one working day, and I have not yet updated them.
+- I corrected the response-time wording to say that Lydia aims to reply within two working days. When asked about it, I answered that this conversation with Lydia is not recorded because I do not keep a log of every conversation. It is therefore my account only. On 8 November, I explained that I had suggested up to two working days to give Lydia breathing room and decided to use Lydia's own wording instead: she usually aims to reply within one working day. The earlier questionnaire and current user story reflect that wording.
 - I corrected the earlier review's deposit wording: deposits are upon request.
 - I said 25 December remains the deadline, with 1 January as a grace period.
 - I identified Instagram feasibility, and which images Lydia prefers for the hero slideshow and About section, as the remaining open questions. Form location and privacy/data-handling details are still tracked as an implementation blocker in US05.
@@ -463,9 +463,10 @@ I recognised the change in my practice and decided to stop using handovers becau
 - **Story status:** I clarified that “In Progress” includes research and planning already started. Implementation and test evidence will be added later.
 - **Must priorities:** The updated plan says Must stories are required before public launch, but do not all need to be completed in Sprint 1.
 - **Unfinished pages:** I said links should still work while page content is being built. I approved the proposed “Coming soon” placeholders. These do not count as completed pages or stories.
-- **Enquiry location:** Lydia’s feedback mentions “their address” and separately states that her service area is Banbury and surrounding villages. Copilot suggested omitting the separate address field, incorrectly treating the service-area confirmation as support for that suggestion. On review, I rejected the suggestion and decided the form should require the client’s full address.
+- **Enquiry location:** Lydia’s feedback mentions “their address” and separately states that her service area is Banbury and surrounding villages. Copilot suggested omitting the separate address field, incorrectly treating the service-area confirmation as support for that suggestion. I initially approved the proposal including that omission, then reconsidered, withdrew that approval and decided the form should require the client’s full address. The full-address requirement is my subsequent decision; Lydia's feedback does not separately confirm its scope or requiredness.
 - **Privacy information:** I said privacy and data handling could be mentioned in the FAQ and footer. The approved update also makes the notice accessible from the form and keeps verification of the actual provider and data handling as a condition before live submissions.
 - **Cancellation:** I said the notice had been confirmed as one day. 
+Reconcile the address, reply-time and hero-fallback records.
 
 #### Suggestions I did not adopt or clarified
 
@@ -476,9 +477,7 @@ I recognised the change in my practice and decided to stop using handovers becau
 #### Left unchanged or still to check
 
 - **Review rotation:** Copilot suggested considering whether automatic rotation was worthwhile. I confirmed the carousel and separate page but did not explicitly reject auto-rotation in this exchange. The planned slow rotation and controls remained.
-- **Hero fallback:** Copilot identified a mismatch between US01’s required slideshow and its static-image fallback. No further decision or edit to that criterion was made in this exchange.
-- **Form:** The provider and actual privacy/data-handling arrangements need verification before live submissions. The consultation flow remains open in the current plan.
-- **Reply target:** Copilot changed the brief from two working days to one working day to align it with US05. Entry 10 records my earlier statement of two working days. This exchange did not resolve that discrepancy with a new response-time confirmation, so it should be checked.
+- **Hero fallback:** Copilot identified a mismatch between US01’s required slideshow and its static-image fallback. I edited the user story to clarify the intended feature and avoid an inaccurate claim.
 
 ### Documents changed after my approval
 
@@ -489,10 +488,8 @@ I recognised the change in my practice and decided to stop using handovers becau
 
 Copilot reported that `git diff --check` passed. No tests were run for the documentation changes.
 
-### Sprint transition and limits of evidence
+### limits of evidence
 
-- The Sprint 0 plan currently says the sprint is complete, but some cards remain in progress and its review and retrospective tables are blank. Closing a sprint for transition does not establish that every card met its Definition of Done.
-- Sprint 1 remains a draft Home-page and shared-layout plan. Its dates, hours, implementation and test evidence remain to be established.
-- The screenshots above show selected parts of the interaction, not the complete conversation or the later full-address correction. No placeholder pages were created as part of these documentation edits.
 - The client clarifications above are my account in this conversation, not separate written records from Lydia.
+- The screenshots cover only parts of the interaction; they do not capture the later address reconsideration. Its sequence is recorded from the conversation.
 - This entry does not establish that the planned features have been built, tested or deployed.
