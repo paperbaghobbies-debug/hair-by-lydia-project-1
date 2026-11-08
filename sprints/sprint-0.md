@@ -1,8 +1,5 @@
 # Sprint 0: Hair by Lydia
-
-**Status:** This plan stays a draft until the **[C]** items are confirmed. Nothing is marked Done unless evidence exists and is linked.
-
-**Current position (5 Nov 2026):** Card 6, wireframe key pages, is complete. Card 7, compiling the complete brief, is now in progress; Lydia's review/sign-off has not yet been evidenced.
+**Current position:** Card 6, wireframe key pages, is complete. Lydia responded positively to the brief on 6 November 2026; This sprint is complete.
 
 ## Source key
 
@@ -24,7 +21,7 @@ Evidence for each part:
 
 | Part of goal | Evidence |
 |---|---|
-| Client-reviewed brief | [Lydia's feedback record](../docs/lydia-feedback.md) and [completed questionnaire](../docs/questionaire-hbl.md) exist, but record questionnaire answers rather than a review of the assembled brief. Brief review/sign-off is not evidenced yet. |
+| Client-reviewed brief | [Website brief](../docs/brief.md) and [Lydia's review response](../docs/screenshots/lydia-brief-review.png), dated 6 November 2026. Her positive response is recorded as a review, not a formal sign-off. |
 | Researched feature decisions | [Feature research and decision log](../docs/feature-research.md) and [competitor comparison](../docs/competitor-research.md) exist. Some research checks and decisions remain open; see cards 2–3 below. |
 | Reviewed user stories | [User stories](../docs/user-stories.md) exist as a draft and link to the [requirements mapping](../docs/requirements-mapping.md) and feedback. Final review and resolution of open questions are not evidenced yet. |
 | Rough wireframes | [Mobile and desktop wireframes](../docs/wire-frames.md), checked against the [user stories](../docs/user-stories.md); review and decision record in [AI log Entry 9](../docs/ai_log.md). |
@@ -60,10 +57,10 @@ One card, one clear output.
 | 1 | Summarise client needs from questionnaire | 1 | Requirements summary (one page) | Every Q1-Q26 answer mapped to a need, feature or constraint; gaps listed | Check each question number appears | [`docs/requirements-mapping.md`](../docs/requirements-mapping.md), [`docs/ai_log.md`](../docs/ai_log.md) (Entries 2 and 3) | Done (per board, issue #2) |
 | 2 | Competitor research | 2 | Competitor comparison (three sites) | Three hairdresser websites reviewed against the same checklist (layout, gallery, prices, enquiry route, mobile, basic accessibility); includes any sites Lydia named in Q6 if she supplies them; features to adopt or avoid listed | Each site scored on the same checklist; takeaways link to stories or decisions | [`docs/competitor-research.md`](../docs/competitor-research.md), [`docs/lydia-competitor-rough-notes.txt`](../docs/lydia-competitor-rough-notes.txt), [`docs/ai_log.md`](../docs/ai_log.md) (Entry 5) | Done (per board, issue #3) |
 | 3 | Research features and options | 2 | Research and decision log | Options compared for form delivery, photo upload, review layout, Instagram content, update method and hosting/costs; each has a recommendation and cited source; time-boxed | Each decision has options, a source and a recommendation | [`docs/feature-research.md`](../docs/feature-research.md), [`features-research-rough-notes.txt`](../notes/features-research-rough-notes.txt) (original notes), [`docs/ai_log.md`](../docs/ai_log.md) (Entry 6) | In progress — the log exists; provider feasibility, current terms and total ongoing costs still need verification. |
-| 4 | Get Lydia's feedback | 3 | Feedback record | Follow-up questions sent covering all open questions from cards 1–3; responses (or chasers) recorded with dates | Every open item shows an answer or a stated assumption | [`docs/lydia-feedback.md`](../docs/lydia-feedback.md), [`docs/questionaire-hbl.md`](../docs/questionaire-hbl.md), [`docs/requirements-mapping.md`](../docs/requirements-mapping.md) | In progress — client feedback was received and recorded, but it does not resolve every follow-up; address detail/privacy and deposit/late-arrival questions remain open. |
-| 5 | Finalise user stories | 4 | User stories v3 | Stories updated for Lydia's answers; priorities confirmed; criteria testable and tagged | Each story traces to a questionnaire answer or feedback | [`docs/user-stories.md`](../docs/user-stories.md), [`docs/requirements-mapping.md`](../docs/requirements-mapping.md), [`docs/lydia-feedback.md`](../docs/lydia-feedback.md) | In progress — stories exist as a draft; the Q12 source discrepancy is resolved, while the address/privacy decision and other open questions still need follow-up. |
+| 4 | Get Lydia's feedback | 3 | Feedback record | Follow-up questions sent covering all open questions from cards 1–3; responses (or chasers) recorded with dates | Every open item shows an answer or a stated assumption | [`docs/lydia-feedback.md`](../docs/lydia-feedback.md), [`docs/questionaire-hbl.md`](../docs/questionaire-hbl.md), [`docs/requirements-mapping.md`](../docs/requirements-mapping.md) | In progress — client feedback was received; the service area is confirmed, while data-handling and some other questions still need verification. |
+| 5 | Finalise user stories | 4 | User stories v3 | Stories updated for Lydia's answers; priorities confirmed; criteria testable and tagged | Each story traces to a questionnaire answer or feedback | [`docs/user-stories.md`](../docs/user-stories.md), [`docs/requirements-mapping.md`](../docs/requirements-mapping.md), [`docs/lydia-feedback.md`](../docs/lydia-feedback.md) | In progress — stories exist as a draft; the Q12 source discrepancy is resolved, and US05 no longer requires a location field. Verify data handling before enabling submissions. |
 | 6 | Wireframe key pages | 5 | Rough wireframes (mobile and desktop) | Home, gallery, services and prices, enquiry form and FAQ covered; each maps to named stories | Wireframe checked against story list | [`docs/wire-frames.md`](../docs/wire-frames.md), [`docs/user-stories.md`](../docs/user-stories.md), [`docs/ai_log.md`](../docs/ai_log.md) (Entry 9) | Done; review and decisions recorded |
-| 7 | Compile the complete brief | 6 | Brief document | Scope, audience, content list, design direction, features, decisions and constraints in one place; Lydia has reviewed it | Lydia's review (and sign-off if given) recorded | Draft and review evidence to be linked when available | In progress |
+| 7 | Compile the complete brief | 6 | Brief document | Scope, audience, content list, design direction, features, decisions and constraints in one place; Lydia has reviewed it | Lydia's review (and sign-off if given) recorded | [`docs/brief.md`](../docs/brief.md), [Lydia's review response](../docs/screenshots/lydia-brief-review.png) | In progress — review recorded; remaining completion checks to be assessed |
 
 ## 5. Definition of Done
 
@@ -100,7 +97,6 @@ A card moves to Done only when:
 6. Card 6: Wireframe key pages
 7. Card 7: Compile the complete brief
 
-**[C: order to be confirmed]**
 
 ## 8. Timeline
 
@@ -167,7 +163,7 @@ These items are planned or awaiting client clarification; they are not Sprint 0 
 
 | Item | Traceability | Next check / evidence required | Status |
 |---|---|---|---|
-| Clarify enquiry location and privacy requirements | US05; Q17; [Lydia's feedback](../docs/lydia-feedback.md) | Ask whether Lydia needs a full address or a less detailed location, whether it must be required, and why. Agree the minimum data needed and verify the form's privacy information and handling: purpose, recipients/processors, access/protection, retention/deletion and contact route. Update the story before form design. | Needs client verification |
+| Verify enquiry privacy and data handling | US05 | The confirmed service area is Banbury and surrounding villages; no separate location field is needed. Form design can proceed. Verify the actual provider, recipients/processors, access/protection, retention/deletion and contact route before enabling submissions; link accurate privacy information from the form, footer and FAQ. | Before live submissions |
 | Confirm the consultation flow | US05; Q8 and Q10 in the [requirements mapping](../docs/requirements-mapping.md) | Confirm whether the form is the online consultation's starting point or whether Lydia follows up separately. Preserve the client-confirmed rule that she consults before manually confirming a service and appointment. | Open |
 | Verify ongoing costs and content maintenance | Q23, Q24 and Q26; sections 1, 2 and 6 of [feature research](../docs/feature-research.md) | Before the build/launch decision, verify registration and renewal costs, hosting and form/service charges, and maintenance/update costs. Record Lydia's stated expectation to own and pay for the domain; confirm its exact format, availability and renewal arrangement, and agree how photos, prices and other content will be updated. Record verified one-off and recurring amounts and link evidence. | Planned |
 | Implement and evidence specification AC 2.1–2.9 | Project specification | Plan and build at least three pages; implement and test validation; provide a README. Link the implementation and criterion-by-criterion evidence. | Planned — later phase |

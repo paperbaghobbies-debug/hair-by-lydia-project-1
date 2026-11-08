@@ -2,6 +2,8 @@
 
 **Traceability:** Q references point to the [requirements mapping](requirements-mapping.md). The [completed questionnaire](questionaire-hbl.md) and [Lydia's feedback record](lydia-feedback.md) are the client records; the mapping is the student's analysis, not a separate client approval. Where the mapping and a direct client record appear to differ, use the direct client record and update the mapping/story. Keep unverified points open rather than treating proposals as confirmed.
 
+**Status and priority:** “In Progress” includes research and planning, not only implementation. Add build and test evidence as development proceeds. “Must” stories are required before public launch; they do not all need to be completed in the first sprint.
+
 ## Coverage of key needs
 
 | Need | Story or backlog | Status / trace |
@@ -84,7 +86,7 @@ Not yet recorded.
 # User Story US03: Genuine client reviews
 
 **Requirement refs:** Q13, Q22
-**Page:** Reviews / Site-wide
+**Page:** Home (featured carousel) and Reviews (full page)
 **Priority:** Should
 **Depends on:** None
 
@@ -92,13 +94,14 @@ Not yet recorded.
 As a potential customer, I want to see genuine client reviews, so that I build trust and can decide if this service is for me.
 
 ## Acceptance criteria
-1. Given a visitor reaches the reviews section, when it loads, then the five reviews approved by Lydia are displayed with their original ratings where those ratings are available.
-2. Given a visitor reads a displayed review, when they inspect its details, then the approved client attribution and hair service are shown where those details are available in the approved review.
-3. Given the reviews carousel is active, when its interval elapses, then it advances slowly to the next review; visitors can pause and resume rotation, and keyboard users can operate the pause, previous and next controls.
-4. Given a visitor views the reviews on a mobile device, when they use the site at the shared test widths, then every review remains readable without horizontal scrolling or overlap.
+1. Given a visitor views the homepage, when the featured reviews carousel loads, then it displays the five reviews approved by Lydia, with their original ratings where those ratings are available.
+2. Given a visitor navigates to the Reviews page, when it loads, then it displays the full selection of reviews Lydia has approved for publication.
+3. Given a visitor reads a displayed review, when they inspect its details, then the approved client attribution and hair service are shown where those details are available in the approved review.
+4. Given the homepage reviews carousel is active, when its interval elapses, then it advances slowly to the next review; visitors can pause and resume rotation, and keyboard users can operate the pause, previous and next controls.
+5. Given a visitor views the homepage carousel or Reviews page on a mobile device, when they use the site at the shared test widths, then reviews remain readable without horizontal scrolling or overlap.
 
 ## Dev notes
-- Approach: Feature the five reviews approved by Lydia in a slowly auto-rotating carousel with accessible pause/resume and previous/next controls, and provide a separate page for the full selection. Slow rotation is the student's design choice, informed by competitor research and the desired style.
+- Approach: Feature the five reviews approved by Lydia in a slowly auto-rotating homepage carousel with accessible pause/resume and previous/next controls. Build the full approved selection on a separate Reviews page in its own page sprint. Slow rotation is the student's design choice, informed by competitor research and the desired style.
 - Lydia's feedback: Approved five reviews to feature (Carlie Louise, Roxie Clarke, Lucy Stephenson, Khadija Torkhani, Melissa Sims). Permission to publish is confirmed.
 - Open questions / needs from Lydia: Check that the approved review sources include the ratings and service details required by the acceptance criteria; do not invent missing details.
 - Fallback: None.
@@ -126,8 +129,9 @@ As a potential customer, I want to browse examples of Lydia's work, so that I ca
 3. Given a visitor browses the gallery on a mobile device, when they use the site at the shared test widths, then images keep their proportions and the gallery has no horizontal scrolling or overlap.
 
 ## Dev notes
-- Approach: Instagram API, subject to testing.
-- Lydia's feedback: Prefers recent Instagram posts if practical. A separately updated gallery is acceptable. Wants to approve photos before they go on the site. Photos updated about once a month. Permission to use client photos on the website is confirmed.
+- Approach: Use Lydia's Instagram posts if technically practical; otherwise build a hand-updated gallery.
+- Lydia's feedback: She controls which photos she publishes to Instagram and prefers recent posts if practical. Photos are updated about once a month. Permission to use client photos on the website is confirmed.
+- The Instagram option remains subject to technical feasibility; Lydia's publishing control is the approval step for posts shown from her account.
 - Open questions / needs from Lydia: Confirm whether she wants before-and-after pairs in the gallery.
 - Fallback: Hand-built gallery.
 
@@ -151,25 +155,25 @@ As a client interested in this service, I want to enquire about a service or ask
 
 ## Acceptance criteria
 1. Given a visitor is unsure which service to book, when they view the homepage, then a “Not sure what to book?” prompt leads them to the enquiry form and invites them to describe their hair goals and current hair.
-2. Given a user opens the enquiry form, when it renders, then fields for name, required phone number, and a description/questions are present, and an email field is available but optional. Any location field asks only for the level of detail Lydia confirms is needed and is required only if she confirms it is necessary.
+2. Given a user opens the enquiry form, when it renders, then fields for name, required phone number, a description/questions, and optional email are present. The form does not request an address or separate location.
 3. Given Lydia receives an enquiry, when she considers a booking, then the site makes clear that the enquiry does not confirm a booking and that she consults with the client before manually confirming the service and appointment. Whether the form itself starts the online consultation or Lydia follows up separately remains to be confirmed.
 4. Given a user submits a valid enquiry, when the form successfully processes it, then the user sees a confirmation that Lydia aims to reply within one working day. If the user provided an email address, an automatic acknowledgement is sent to that address.
-5. Given a user submits personal information, when they review the form before submission, then a concise privacy notice explains what information is collected, why, who receives or processes it, and the verified handling and retention/deletion approach.
+5. Given a user submits personal information, when they review the form, then a concise privacy notice is available from the form and explains what information is collected, why, who receives or processes it, and the verified handling and retention/deletion approach. The notice is also reachable from the footer and FAQ.
 6. Given a user opens the enquiry form, when it renders, then an optional "How did you hear about Lydia?" dropdown offers: word of mouth, Google/search, Instagram, Facebook, other, and prefer not to say. The selected answer is included in the enquiry email, and no backend tracking is added.
 7. Given a user leaves a required field blank or enters invalid data, when they submit the form, then validation identifies the problem and prevents invalid data from being processed.
 8. Given the form cannot send an enquiry, when an error occurs, then the user is told the enquiry was not sent and is offered an alternative contact method.
 
 ## Dev notes
 - Approach: A form with required fields that sends an email to Lydia.
-- Lydia's feedback: “Their address”; phone number is required. Wants an automatic acknowledgement sent to the client. Photos are sent later by WhatsApp, not attached. Site can say she replies within one working day.
-- Open questions / needs from Lydia: Clarify whether “their address” means a full home address or a less detailed location, whether it is required, and the purpose for collecting it. Agree the privacy notice and handling with Lydia, including the form provider, access/protection, retention and deletion. Confirm whether the form is the online consultation's starting point or a separate follow-up is needed. The required phone field and optional email field are recorded in the story; Lydia's receiving email address will be provided when needed and is not included here.
+- Lydia's feedback: Phone number is required. The service area is Banbury and surrounding villages; no separate location or address field is needed. She wants an automatic acknowledgement sent to the client. Photos are sent later by WhatsApp, not attached. Site can say she replies within one working day.
+- Before enabling submissions, verify the form provider and actual data handling, including who receives/processes data, access/protection, retention and deletion. Link the privacy information from the form and make it available in the footer and FAQ. Confirm whether the form is the online consultation's starting point or Lydia follows up separately. The required phone field and optional email field are recorded in the story; Lydia's receiving email address will be provided when needed and is not included here.
 - Fallback: If the form cannot submit, show a clear error and a WhatsApp contact link. Do not show a success message or imply that an acknowledgement was sent.
 
 ## Status
-[Blocked: client clarification needed on location scope and personal-data handling]
+[In Progress: form design can proceed; verify data handling before enabling submissions]
 
 ## Evidence
-[Client feedback record](lydia-feedback.md); see the Sprint 0 [carry-forward backlog](../sprints/sprint-0.md#11-carry-forward-backlog-and-later-specification) for outstanding verification.
+Service-area clarification: Banbury and surrounding villages. Verify provider and data-handling details before enabling submissions.
 ---
 
 # User Story US06: Services and prices in one click

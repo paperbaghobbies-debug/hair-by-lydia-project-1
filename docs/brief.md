@@ -2,7 +2,7 @@
 
 **Date:** 5 November 2026
 
-**Status:** Prepared for Lydia's review; not yet signed off
+**Status:** Client-reviewed; positive feedback received
 
 **Source key**
 
@@ -37,8 +37,17 @@ The site should feel professional and work well on phones, tablets and desktops.
 The project target deadline is **25 December 2026**. If needed, work may continue through **1 January 2027** as a grace period. **[P]**
 
 - **Sprint 0 — planning:** Prepare this brief for client review, with researched feature decisions, user stories and wireframes.
-- **Sprint 1 — build:** Create the shared layout and navigation, Home, Services & Prices, Enquiry, Reviews, Gallery and FAQ pages; implement form validation; add Lydia's approved content; and write a README.
-- **Sprint 2 — test, deploy and document:** Complete responsive and accessibility checks, record manual test procedures and results, deploy with the domain, capture screenshots, prepare lifecycle documentation and a handover guide for content updates, and check the site against the specification.
+- **Sprint 1 — Home:** Build the shared layout and navigation with the Home page, including its featured reviews carousel.
+- **Sprint 2 — Services & Prices:** Build and test the services and pricing page.
+- **Sprint 3 — Enquiry:** Build and test the enquiry page and form. Enable live submission only after the form provider and its data handling are verified.
+- **Sprint 4 — Reviews:** Build and test the separate full Reviews page.
+- **Sprint 5 — Gallery:** Build and test the Gallery page, using Instagram display if technically practical.
+- **Sprint 6 — FAQ:** Build and test the FAQ page.
+- **Sprint 7 — Integration, deployment and handover:** Test navigation and complete cross-page responsive and accessibility checks; deploy with the domain, capture screenshots, prepare lifecycle documentation and a handover guide for content updates, and check the site against the specification.
+- Each page sprint includes testing its acceptance criteria, fixing and retesting issues, and recording the related version-control work. Sprint dates and estimates remain to be confirmed against available time and the project deadline.
+
+Stories marked **Must** are required before public launch; that priority does not mean they must all be delivered in Sprint 1.
+
 - Keep time before the deadline for fixes and submission checks; use the grace period only if needed.
 
 ### Out of scope
@@ -51,7 +60,7 @@ The project target deadline is **25 December 2026**. If needed, work may continu
 
 ### Main risks and checks
 
-- Whether displaying recent Instagram posts is practical.
+- Whether displaying Lydia's Instagram posts is technically practical and can follow her approval and publishing process.
 - Getting Lydia's preferred and approved hero and About-section images in time.
 - Verifying domain, hosting, form-service and content-update costs before launch.
 - Gathering testing and deployment evidence throughout the project rather than leaving it until the end.
@@ -78,10 +87,10 @@ The project target deadline is **25 December 2026**. If needed, work may continu
 |---|---|---|---|
 | Preferred, high-resolution hero images | Home slideshow (US01) | Lydia | Lydia to choose/provide the images and approve their use. |
 | Preferred About-section image and short bio | Home (US01, US08) | Lydia | Ask Lydia which image and details she wants included. |
-| Gallery photos | Gallery (US04) | Lydia | Lydia approves every photo before publication. Use a hand-built gallery if Instagram display is impractical. |
+| Gallery photos | Gallery (US04) | Lydia | Lydia controls which photos she publishes to Instagram. Use the Instagram display if practical; otherwise, use a hand-built gallery of photos she approves. |
 | Intro line and enquiry button wording | Home and site-wide (US02) | Me, with Lydia's approval | Draft and ask Lydia to approve. |
 | Image alt text | Home and Gallery | Me, with Lydia's review | Write descriptive alt text for the selected images. |
-| Enquiry fields and privacy notice | Enquiry (US05) | Me and Lydia | Use a required phone field and optional email. Confirm what location detail is needed and the privacy/data-handling details before implementation. |
+| Enquiry fields and privacy notice | Enquiry (US05) | Me and Lydia | Use a required phone field and optional email; no separate location field is needed. Link the privacy information from the form and make it available in the footer and FAQ. Verify the form provider and actual data-handling details before enabling submissions. |
 | FAQ questions and answers | FAQ (US07) | Me, with Lydia's approval | Draft the confirmed cancellation and deposit wording. Do not invent late-arrival terms. |
 
 Lydia expects photos to be updated about monthly and prices about once a year or less. She will send updates for me to publish. **[Q]**
@@ -98,14 +107,14 @@ Lydia expects photos to be updated about monthly and prices about once a year or
 ### Enquiry
 
 - The form will collect a name, required phone number, optional email address, and a short description or question. **[Q]**
-- Include a location/address field only after confirming the necessary level of detail and whether it is required. Agree the privacy notice and data-handling details before collecting personal information. **[C]**
+- Do not collect an address or separate location in the form; the confirmed service area is Banbury and surrounding villages. Link a privacy notice from the form and make it available in the footer and FAQ. Verify the form provider, recipients/processors, access/protection, and retention/deletion approach before enabling submissions. **[Q/C]**
 - Include an optional “How did you hear about Lydia?” dropdown with word of mouth, Google/search, Instagram, Facebook, other, and prefer not to say. Include the answer in the enquiry email only; do not add tracking. **[P]**
 - If a client provides an email address, send an automatic acknowledgement after a successful submission. **[Q]**
-- Lydia aims to reply within **two working days**. This reflects my conversation with Lydia; that conversation is not separately recorded. **[Q, as recalled by me]**
+- Lydia aims to reply within **one working day**. **[Q]**
 - Make clear that an enquiry is not a confirmed booking. Lydia consults with the client and confirms the service and appointment manually. **[Q]**
 - If the form cannot send, say the enquiry was not sent and offer another contact method. **[P]**
 
-The enquiry story currently tracks the location and privacy/data-handling details as implementation blockers. See [US05](./user-stories.md#user-story-us05-enquiry-form).
+The form design can proceed without collecting a separate location. Verify the actual provider and data-handling details before enabling submissions; see [US05](./user-stories.md#user-story-us05-enquiry-form).
 
 ### Reviews
 
@@ -116,8 +125,8 @@ The enquiry story currently tracks the location and privacy/data-handling detail
 
 ### Gallery and About content
 
-- Lydia prefers recent Instagram posts if practical. **[Q]**
-- If Instagram display is not practical, I will build a hand-updated gallery using photos Lydia approves. **[P]**
+- Lydia prefers Instagram posts and controls which photos she publishes to her account. **[Q]**
+- Use Instagram display if technically practical; otherwise, build a hand-updated gallery using photos Lydia approves. **[P]**
 - The About content belongs on the Home page; there will not be a separate About page. This follows Lydia's request and the current user-story plan. **[Q/P]**
 - Lydia will choose/provide her preferred images for the hero slideshow and About section. **[C]**
 
@@ -142,7 +151,7 @@ The enquiry story currently tracks the location and privacy/data-handling detail
 | [US02](./user-stories.md#user-story-us02-enquiry-call-to-action-on-every-page) | Enquiry call to action on every page | Site-wide | Should | To do |
 | [US03](./user-stories.md#user-story-us03-genuine-client-reviews) | Genuine client reviews (carousel plus full page) | Reviews / site-wide | Should | In progress |
 | [US04](./user-stories.md#user-story-us04-gallery-with-before-and-afters) | Gallery with before and afters | Gallery | Must | To do |
-| [US05](./user-stories.md#user-story-us05-enquiry-form) | Enquiry form | Home / Contact | Must | Blocked: location and privacy/data-handling details |
+| [US05](./user-stories.md#user-story-us05-enquiry-form) | Enquiry form | Enquiry | Must | In progress; verify data handling before live submissions |
 | [US06](./user-stories.md#user-story-us06-services-and-prices-in-one-click) | Services and prices in one click | Services & Prices | Should | To do |
 | [US07](./user-stories.md#user-story-us07-cancellation-policy-and-deposits) | Cancellation policy and deposits | FAQ | Should | To do |
 | [US08](./user-stories.md#user-story-us08-lydias-training) | Lydia's training | Home (About section) | Should | To do |
@@ -178,14 +187,14 @@ The following checks are recorded in the wireframes. Check final rendered combin
 - Lydia's permission covers use of client photos on the website; still follow the separate rule not to place client photos in a public repository without agreement.
 - Verify domain availability and hosting, form-service and content-update costs before committing to the launch setup.
 - The main remaining content question is which images Lydia prefers for the hero slideshow and About section.
-- Confirm whether recent Instagram posts can be used practically; use my hand-built gallery fallback if not.
+- Confirm whether Instagram display is technically practical; use the hand-built gallery fallback if not.
 
-Detailed enquiry-form location and privacy/data-handling requirements remain tracked in US05 and must be resolved before implementing that form.
+No separate enquiry location field is needed. Verify the form provider and its actual privacy/data-handling details before enabling submissions; see US05.
 
 ## 9. Review and sign-off
 
-This brief is prepared for Lydia's review. I will record the date sent, her feedback and any changes; I will mark it client-reviewed or signed off only when that evidence exists.
+The brief was sent to Lydia for review on 6 November 2026. She replied positively on the same day. Her response is recorded as a review, rather than a formal sign-off; the outstanding checks above still apply.
 
 | Date | Reviewer | Outcome | Evidence |
 |---|---|---|---|
-| Pending | Lydia | Awaiting review | None yet |
+| 6 November 2026 | Lydia | "That is perfect Thankyou." | [Email review response](screenshots/lydia-brief-review.png) |
