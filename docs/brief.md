@@ -90,7 +90,7 @@ Stories marked **Must** are required before public launch; that priority does no
 | Gallery photos | Gallery (US04) | Lydia | Lydia controls which photos she publishes to Instagram. Use the Instagram display if practical; otherwise, use a hand-built gallery of photos she approves. |
 | Intro line and enquiry button wording | Home and site-wide (US02) | Me, with Lydia's approval | Draft and ask Lydia to approve. |
 | Image alt text | Home and Gallery | Me, with Lydia's review | Write descriptive alt text for the selected images. |
-| Enquiry fields and privacy notice | Enquiry (US05) | Me and Lydia | Use a required phone field and optional email; no separate location field is needed. Link the privacy information from the form and make it available in the footer and FAQ. Verify the form provider and actual data-handling details before enabling submissions. |
+| Enquiry fields and privacy notice | Enquiry (US05) | Me and Lydia | Use a required phone and full-address field and optional email. Link the privacy information from the form and make it available in the footer and FAQ. Verify the form provider and actual data-handling details before enabling submissions. |
 | FAQ questions and answers | FAQ (US07) | Me, with Lydia's approval | Draft the confirmed cancellation and deposit wording. Do not invent late-arrival terms. |
 
 Lydia expects photos to be updated about monthly and prices about once a year or less. She will send updates for me to publish. **[Q]**
@@ -106,15 +106,15 @@ Lydia expects photos to be updated about monthly and prices about once a year or
 
 ### Enquiry
 
-- The form will collect a name, required phone number, optional email address, and a short description or question. **[Q]**
-- Do not collect an address or separate location in the form; the confirmed service area is Banbury and surrounding villages. Link a privacy notice from the form and make it available in the footer and FAQ. Verify the form provider, recipients/processors, access/protection, and retention/deletion approach before enabling submissions. **[Q/C]**
+- The form will collect a name, required phone number, required full address, optional email address, and a short description or question. Lydia asked for the client's address; requiring a full address is my subsequent decision. **[Q/P]**
+- The service area is Banbury and surrounding villages. Link a privacy notice from the form and make it available in the footer and FAQ; it must explain the information collected and its purpose. Verify the form provider, recipients/processors, access/protection, and retention/deletion approach before enabling submissions. **[Q/C]**
 - Include an optional “How did you hear about Lydia?” dropdown with word of mouth, Google/search, Instagram, Facebook, other, and prefer not to say. Include the answer in the enquiry email only; do not add tracking. **[P]**
 - If a client provides an email address, send an automatic acknowledgement after a successful submission. **[Q]**
 - Lydia aims to reply within **one working day**. **[Q]**
 - Make clear that an enquiry is not a confirmed booking. Lydia consults with the client and confirms the service and appointment manually. **[Q]**
 - If the form cannot send, say the enquiry was not sent and offer another contact method. **[P]**
 
-The form design can proceed without collecting a separate location. Verify the actual provider and data-handling details before enabling submissions; see [US05](./user-stories.md#user-story-us05-enquiry-form).
+The form design includes a required full address. Verify the actual provider and data-handling details before enabling submissions; see [US05](./user-stories.md#user-story-us05-enquiry-form).
 
 ### Reviews
 
@@ -189,7 +189,7 @@ The following checks are recorded in the wireframes. Check final rendered combin
 - The main remaining content question is which images Lydia prefers for the hero slideshow and About section.
 - Confirm whether Instagram display is technically practical; use the hand-built gallery fallback if not.
 
-No separate enquiry location field is needed. Verify the form provider and its actual privacy/data-handling details before enabling submissions; see US05.
+US05 includes a required full-address field. Verify the form provider and its actual privacy/data-handling details before enabling submissions.
 
 ## 9. Review and sign-off
 

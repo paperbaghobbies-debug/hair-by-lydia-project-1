@@ -179,7 +179,7 @@ Keep no more than two cards active at once and use one branch per card.
 
 | Item | Next action | Status |
 |---|---|---|
-| Enquiry privacy and data handling | Form design can proceed without a location field; verify the provider, recipients/processors, access/protection, and retention/deletion before enabling submissions | Before form submissions |
+| Enquiry privacy and data handling | US05 includes a required full-address field. Before enabling submissions, verify the form provider, recipients/processors, access and protection, retention and deletion, and contact route. Make accurate privacy information accessible from the form, footer and FAQ. | Before form submissions |
 | Consultation flow | Confirm whether the form starts the consultation or Lydia follows up separately | Open |
 | Hosting, domain, service and maintenance costs | Verify costs and arrangements before the relevant build or launch decision | Open |
 | Services & Prices page | Build and test in its own page sprint | Planned |

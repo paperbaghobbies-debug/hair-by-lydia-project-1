@@ -426,3 +426,73 @@ I recognised the change in my practice and decided to stop using handovers becau
 - My clarifications about deposits and the two-working-day reply aim are not in any screenshot. They appear only in the conversation text.
 - Copilot wrote this entry and `docs/brief.md`. I have not yet confirmed with my teacher that AI drafting is permitted for this assessment, and the JCQ declaration is still to be completed.
 - This entry and the brief do not establish that Lydia has reviewed or signed off the new brief, that the proposed design has been built, or that the site has been tested.
+
+
+## Entry 11: User-story review and sprint-plan alignment
+
+**Date:** 8 November 2026  
+**Tool:** Copilot Chat in VS Code  
+**Reference:** GitHub (2026) *GitHub Copilot Chat* [Generative AI]. Available from: https://github.com/features/copilot [Accessed 8 November 2026].
+
+**Purpose:** To review my user stories against the planned build and align the transition from Sprint 0 into Sprint 1 and later page-focused sprints.
+
+**Authorship:** Copilot reviewed the documents, made recommendations, and drafted and applied wording to the planning documents after I approved its proposal. I provided the decisions and clarifications recorded below. Copilot also drafted this proposed log entry.
+
+### Interaction record
+
+| Step | My request or response | Copilot’s contribution |
+|---|---|---|
+| 1 | I asked for a review of my user stories against my planned build. | Copilot identified a difference between the brief and Sprint 1 scope and raised questions about priorities, reviews, the gallery, story statuses, the hero fallback and cancellation wording. It made no edits during this initial review. |
+| 2 | I gave my decisions and asked to see the proposed update before any edits. | Copilot presented a proposed update in chat. |
+| 3 | I approved the proposal as written for refactoring. | Copilot changed the brief, user stories, Sprint 0 carry-forward items and Sprint 1 plan. |
+| 4 | I asked for a draft AI log and then asked for my decisions and rejected suggestions to be clearer. | Copilot revised its proposed log and distinguished my decisions from its recommendations. |
+
+### Screenshots
+
+- [Review request and initial findings](screenshots/story-review-summary.png): my request, Copilot's review and the beginning of my response.
+- [My responses to the review](screenshots/story-review-decisions.png): my decisions and clarifications about the findings.
+- [Approval and activity](screenshots/story-review-approval.png): my approval and Copilot's activity summary; the full proposed wording is not visible.
+- [Update summary](screenshots/story-review-update.png): Copilot's summary of the planning-document changes.
+
+### My decisions and responses to AI suggestions
+
+#### Accepted or chosen
+
+- **Sprint structure:** I chose smaller sprints, with a separate sprint for each page, to support testing and version control. The updated brief also includes a later integration, deployment and handover sprint.
+- **Reviews:** I confirmed that I want a review carousel on the homepage and a separate full Reviews page. They are planned for different sprints.
+- **Story status:** I clarified that “In Progress” includes research and planning already started. Implementation and test evidence will be added later.
+- **Must priorities:** The updated plan says Must stories are required before public launch, but do not all need to be completed in Sprint 1.
+- **Unfinished pages:** I said links should still work while page content is being built. I approved the proposed “Coming soon” placeholders. These do not count as completed pages or stories.
+- **Enquiry location:** Lydia’s feedback mentions “their address” and separately states that her service area is Banbury and surrounding villages. Copilot suggested omitting the separate address field, incorrectly treating the service-area confirmation as support for that suggestion. On review, I rejected the suggestion and decided the form should require the client’s full address.
+- **Privacy information:** I said privacy and data handling could be mentioned in the FAQ and footer. The approved update also makes the notice accessible from the form and keeps verification of the actual provider and data handling as a condition before live submissions.
+- **Cancellation:** I said the notice had been confirmed as one day. 
+
+#### Suggestions I did not adopt or clarified
+
+- **Gallery default:** Copilot suggested a curated hand-built gallery as the default. I did not adopt that recommendation. Lydia controls the photos she publishes to Instagram, and I want to explore using those posts so she can control updates without involving me. A hand-built gallery remains the fallback if Instagram display is not technically practical.
+- **Status evidence:** Copilot questioned whether the “In Progress” labels were supported by implementation evidence. I clarified that they also cover research and are not a claim that the features have been built or tested.
+- **Client conversations:** I stated that I do not intend to record every conversation with Lydia.
+
+#### Left unchanged or still to check
+
+- **Review rotation:** Copilot suggested considering whether automatic rotation was worthwhile. I confirmed the carousel and separate page but did not explicitly reject auto-rotation in this exchange. The planned slow rotation and controls remained.
+- **Hero fallback:** Copilot identified a mismatch between US01’s required slideshow and its static-image fallback. No further decision or edit to that criterion was made in this exchange.
+- **Form:** The provider and actual privacy/data-handling arrangements need verification before live submissions. The consultation flow remains open in the current plan.
+- **Reply target:** Copilot changed the brief from two working days to one working day to align it with US05. Entry 10 records my earlier statement of two working days. This exchange did not resolve that discrepancy with a new response-time confirmation, so it should be checked.
+
+### Documents changed after my approval
+
+- [brief.md](brief.md): sprint sequence, gallery approach and enquiry details.
+- [user-stories.md](user-stories.md): story-status and priority meanings, plus changes to US03, US04 and US05.
+- [sprint-0.md](../sprints/sprint-0.md): enquiry-related status and carry-forward item.
+- [sprint-1.md](../sprints/sprint-1.md): Home-page scope, placeholder behaviour, carousel checks and later page work.
+
+Copilot reported that `git diff --check` passed. No tests were run for the documentation changes.
+
+### Sprint transition and limits of evidence
+
+- The Sprint 0 plan currently says the sprint is complete, but some cards remain in progress and its review and retrospective tables are blank. Closing a sprint for transition does not establish that every card met its Definition of Done.
+- Sprint 1 remains a draft Home-page and shared-layout plan. Its dates, hours, implementation and test evidence remain to be established.
+- The screenshots above show selected parts of the interaction, not the complete conversation or the later full-address correction. No placeholder pages were created as part of these documentation edits.
+- The client clarifications above are my account in this conversation, not separate written records from Lydia.
+- This entry does not establish that the planned features have been built, tested or deployed.

@@ -42,7 +42,8 @@ deployment. I will review progress, record evidence and carry unresolved
 questions forward as the project develops.
 
 
-The brief is awaiting Lydia’s review, and some decisions—including enquiry
+Lydia responded positively to the brief on 6 November 2026; see the
+[review record](./docs/brief.md#9-review-and-sign-off). Some decisions—including enquiry
 privacy details and hosting—still need confirmation.
 
 ### Planning and research documents

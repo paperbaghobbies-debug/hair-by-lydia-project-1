@@ -155,7 +155,7 @@ As a client interested in this service, I want to enquire about a service or ask
 
 ## Acceptance criteria
 1. Given a visitor is unsure which service to book, when they view the homepage, then a “Not sure what to book?” prompt leads them to the enquiry form and invites them to describe their hair goals and current hair.
-2. Given a user opens the enquiry form, when it renders, then fields for name, required phone number, a description/questions, and optional email are present. The form does not request an address or separate location.
+2. Given a user opens the enquiry form, when it renders, then fields for name, required phone number, required full address, and a description/questions are present, and an email field is available but optional.
 3. Given Lydia receives an enquiry, when she considers a booking, then the site makes clear that the enquiry does not confirm a booking and that she consults with the client before manually confirming the service and appointment. Whether the form itself starts the online consultation or Lydia follows up separately remains to be confirmed.
 4. Given a user submits a valid enquiry, when the form successfully processes it, then the user sees a confirmation that Lydia aims to reply within one working day. If the user provided an email address, an automatic acknowledgement is sent to that address.
 5. Given a user submits personal information, when they review the form, then a concise privacy notice is available from the form and explains what information is collected, why, who receives or processes it, and the verified handling and retention/deletion approach. The notice is also reachable from the footer and FAQ.
@@ -165,7 +165,7 @@ As a client interested in this service, I want to enquire about a service or ask
 
 ## Dev notes
 - Approach: A form with required fields that sends an email to Lydia.
-- Lydia's feedback: Phone number is required. The service area is Banbury and surrounding villages; no separate location or address field is needed. She wants an automatic acknowledgement sent to the client. Photos are sent later by WhatsApp, not attached. Site can say she replies within one working day.
+- Lydia's feedback: Phone number is required and she asked for “their address”. The service area is Banbury and surrounding villages. The decision to require a full address is the student's subsequent decision. She wants an automatic acknowledgement sent to the client. Photos are sent later by WhatsApp, not attached. Site can say she replies within one working day.
 - Before enabling submissions, verify the form provider and actual data handling, including who receives/processes data, access/protection, retention and deletion. Link the privacy information from the form and make it available in the footer and FAQ. Confirm whether the form is the online consultation's starting point or Lydia follows up separately. The required phone field and optional email field are recorded in the story; Lydia's receiving email address will be provided when needed and is not included here.
 - Fallback: If the form cannot submit, show a clear error and a WhatsApp contact link. Do not show a success message or imply that an acknowledgement was sent.
 
@@ -173,7 +173,7 @@ As a client interested in this service, I want to enquire about a service or ask
 [In Progress: form design can proceed; verify data handling before enabling submissions]
 
 ## Evidence
-Service-area clarification: Banbury and surrounding villages. Verify provider and data-handling details before enabling submissions.
+[Client feedback record](lydia-feedback.md): “their address” and service area. The requirement for a full address is the student's subsequent decision. Verify provider and data-handling details before enabling submissions.
 ---
 
 # User Story US06: Services and prices in one click

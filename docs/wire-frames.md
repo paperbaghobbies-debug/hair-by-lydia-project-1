@@ -403,8 +403,7 @@ Line height is 1.5 for body text. Sizes use `rem` so the text scales with the us
 |           [____________________]               |
 |            Email (optional)                    |
 |           [____________________]               |
-|            Address / location                  |
-|       (details and requiredness to confirm)     |
+|            Full address (required)             |
 |           [____________________]               |
 |    How did you hear about Lydia? (optional)    |
 |           [ Select one       ▾ ]               |
@@ -449,8 +448,7 @@ Line height is 1.5 for body text. Sizes use `rem` so the text scales with the us
 |                          [________________________]                                  |
 |                              Email (optional)                                        |
 |                          [________________________]                                  |
-|                         Address / location                                           |
-|                    (details and requiredness to confirm)                             |
+|                         Full address (required)                                      |
 |                          [________________________]                                  |
 |                  How did you hear about Lydia? (optional)                            |
 |                          [ Select one          ▾ ]                                   |
