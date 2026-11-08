@@ -10,7 +10,7 @@
 - **[P]** My proposal, interpretation or design decision.
 - **[C]** To confirm or verify.
 
-**Sources:** [Questionnaire](./questionaire-hbl.md), [Lydia's feedback](./lydia-feedback.md), [user stories](./user-stories.md), [feature research](./feature-research.md), [competitor research](./competitor-research.md), [wireframes](./wire-frames.md), [design principles and accessibility](./design-principles-accessibility.md), [requirements mapping](./requirements-mapping.md), and my [original rough notes](../brief-rough-note.txt).
+**Sources:** [Questionnaire](./questionaire-hbl.md), [Lydia's feedback](./lydia-feedback.md), [user stories](./user-stories.md), [feature research](./feature-research.md), [competitor research](./competitor-research.md), [wireframes](./wire-frames.md), [design principles and accessibility](./design-principles-accessibility.md), [requirements mapping](./requirements-mapping.md), and my [original rough notes](../notes/brief-rough-note.txt).
 
 ## 1. Purpose
 

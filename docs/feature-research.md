@@ -152,5 +152,5 @@
 
 ## Evidence
 
-- [Original feature research rough notes](../features-research-rough-notes.txt) — preserved as the source for this document, including the dated account of Lydia's header decision.
+- [Original feature research rough notes](../notes/features-research-rough-notes.txt) — preserved as the source for this document, including the dated account of Lydia's header decision.
 - Research screenshots are linked beside the relevant findings above.

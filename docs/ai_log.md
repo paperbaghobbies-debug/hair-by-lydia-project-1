@@ -254,12 +254,12 @@ I chose and visited the competitors, entered Lydia's feedback, made the observat
 
 | # | What I asked | What the AI returned | Evidence |
 |---|---|---|---|
-| 1 | I asked it to convert my rough feature-research notes into a final Markdown document saved in the repository, add [P] and [C] tags, write a dated note of what Lydia agreed on 28/10/2026, and add an AI log entry. | A structured feature research and decision log in `docs/feature-research.md`, with proposals and outstanding checks labelled. It recorded Lydia's agreement to drop the transparent header in favour of a taupe fixed header, as stated in my rough notes, and linked the document from the Sprint 0 evidence table. It did not independently verify the research sources or the client discussion. | This Copilot Chat transcript (29 October 2026); [original rough notes](../features-research-rough-notes.txt); [feature research document](feature-research.md); [Sprint 0 plan](../sprints/sprint-0.md); [completion screenshot](screenshots/feature-research-completion.png). |
+| 1 | I asked it to convert my rough feature-research notes into a final Markdown document saved in the repository, add [P] and [C] tags, write a dated note of what Lydia agreed on 28/10/2026, and add an AI log entry. | A structured feature research and decision log in `docs/feature-research.md`, with proposals and outstanding checks labelled. It recorded Lydia's agreement to drop the transparent header in favour of a taupe fixed header, as stated in my rough notes, and linked the document from the Sprint 0 evidence table. It did not independently verify the research sources or the client discussion. | This Copilot Chat transcript (29 October 2026); [original rough notes](../notes/features-research-rough-notes.txt); [feature research document](feature-research.md); [Sprint 0 plan](../sprints/sprint-0.md); [completion screenshot](screenshots/feature-research-completion.png). |
 
 ### Project documents
 - [feature-research.md](feature-research.md): feature research and decision log converted from my rough notes
 - [sprint-0.md](../sprints/sprint-0.md): evidence link for the research card
-- [features-research-rough-notes.txt](../features-research-rough-notes.txt): original notes retained as source evidence
+- [features-research-rough-notes.txt](../notes/features-research-rough-notes.txt): original notes retained as source evidence
 - [feature-research-completion.png](screenshots/feature-research-completion.png): screenshot of the request and completed changes
 
 ### My decisions
@@ -305,11 +305,11 @@ I recognised the change in my practice and decided to stop using handovers becau
 
 | # | What I asked | What the AI returned | Evidence |
 |---|---|---|---|
-| 1 | I asked it to reformat my design-principle rough notes as Markdown without changing any wording, keep the original draft for evidence, record the work in the AI log, and not commit anything. | A Markdown-formatted copy of the notes, with the original rough-notes file left unchanged. | [Screenshot of my request and completion summary](screenshots/design-principles-formatting-completion.png); [original rough notes](../design-principles-accessibility-rough-notes.txt); [formatted document](design-principles-accessibility.md). |
+| 1 | I asked it to reformat my design-principle rough notes as Markdown without changing any wording, keep the original draft for evidence, record the work in the AI log, and not commit anything. | A Markdown-formatted copy of the notes, with the original rough-notes file left unchanged. | [Screenshot of my request and completion summary](screenshots/design-principles-formatting-completion.png); [original rough notes](../notes/design-principles-accessibility-rough-notes.txt); [formatted document](design-principles-accessibility.md). |
 
 ### Project documents
 - [design-principles-accessibility.md](design-principles-accessibility.md): Markdown-formatted copy of the design-principle and accessibility notes
-- [design-principles-accessibility-rough-notes.txt](../design-principles-accessibility-rough-notes.txt): original draft retained unchanged as evidence
+- [design-principles-accessibility-rough-notes.txt](../notes/design-principles-accessibility-rough-notes.txt): original draft retained unchanged as evidence
 - [design-principles-formatting-completion.png](screenshots/design-principles-formatting-completion.png): screenshot of the request and completion summary
 
 ### My decisions
@@ -384,12 +384,12 @@ I recognised the change in my practice and decided to stop using handovers becau
 
 | # | What I asked | What the AI returned | Evidence |
 |---|---|---|---|
-| 1 | I asked how I could improve my rough website brief into a finalised version. I then clarified that deposits are upon request; Lydia aims to reply within two working days; 25 December remains the deadline, with a grace period through 1 January if needed. I asked the AI to ask me about unresolved edits and changes, reflect what I kept, rejected or changed, update the AI log, and reference my rough notes as evidence. | Copilot reviewed the rough notes against the existing brief-related project documents, asked me questions (shown in the screenshot of my answers), then created a new `docs/brief.md` while retaining the rough notes as source evidence. It incorporated my corrections, kept my proposals distinct from Lydia's input, and recorded remaining checks without claiming Lydia had reviewed or signed off the brief. | [Original rough notes](../brief-rough-note.txt); [new website brief](brief.md); current Copilot Chat conversation (5 November 2026); [screenshot of my review request and the initial review](screenshots/brief-review-request.png); [screenshot of the questions and my answers](screenshots/brief-question-answers.png); [screenshot of my logging request and completion summary](screenshots/brief-log-update.png). |
+| 1 | I asked how I could improve my rough website brief into a finalised version. I then clarified that deposits are upon request; Lydia aims to reply within two working days; 25 December remains the deadline, with a grace period through 1 January if needed. I asked the AI to ask me about unresolved edits and changes, reflect what I kept, rejected or changed, update the AI log, and reference my rough notes as evidence. | Copilot reviewed the rough notes against the existing brief-related project documents, asked me questions (shown in the screenshot of my answers), then created a new `docs/brief.md` while retaining the rough notes as source evidence. It incorporated my corrections, kept my proposals distinct from Lydia's input, and recorded remaining checks without claiming Lydia had reviewed or signed off the brief. | [Original rough notes](../notes/brief-rough-note.txt); [new website brief](brief.md); current Copilot Chat conversation (5 November 2026); [screenshot of my review request and the initial review](screenshots/brief-review-request.png); [screenshot of the questions and my answers](screenshots/brief-question-answers.png); [screenshot of my logging request and completion summary](screenshots/brief-log-update.png). |
 
 ### Project documents
 
 - [brief.md](brief.md): new Markdown website brief prepared from my rough notes
-- [brief-rough-note.txt](../brief-rough-note.txt): original rough notes retained as evidence
+- [brief-rough-note.txt](../notes/brief-rough-note.txt): original rough notes retained as evidence
 - [brief-review-request.png](screenshots/brief-review-request.png): my review request and the AI's initial review
 - [brief-question-answers.png](screenshots/brief-question-answers.png): the questions Copilot asked and my answers (the right edge of the longest answer is cropped)
 - [brief-log-update.png](screenshots/brief-log-update.png): my logging request and completion summary
